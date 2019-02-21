@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html dir = "rtl" lang ="ar">
+<head>
+<title>demo of dropdown list using xml element data in JavaScript</title>
+<meta charset="utf-8">
+</head>
+<body>
+<h1 style="text-align: center;">إنشاء سلسلة التمارين</h1>
+<dl style="text-align: center;">
+  <dt></dt>
+</dl>
+<h2 style="text-align: center;">في أقل من دقيقة</h2>
+  <dt></dt>
+    <h3>تقدم هذه الصفحة لزوارها الكرام مجموعة من التمارين الخاصة
+بمادة الفيزياء والكيمياء للسلك الثانوي التأهيلي وفق المنهج التعليمي
+المغربي والتي من خلالها يمكنك أخي الزائر أختي الزائرة إنشاء سلسلة
+التمارين الخاصة بك. 
+<br/>
+يتضمن الموقع حاليا :
+
+</h3>
+<br/><br/>
+<fieldset id="section-2">
+<legend> إحصائيات </legend>
+<br/>
+<label for="nom_prenom">الجذع المشترك العلمي :</label> 
+<input id="tc" name="nom_prenom" type="text" readonly style="text-align: center;"/>
+<label for="nom_prenom">تمرينا</label> <br />
+<label for="lycee">الأولى باك علوم تجريبية :</label> 
+<input id="bac1" name="lycee" type="text" readonly style="text-align: center;" /> 
+<label for="nom_prenom">تمرينا</label> <br />
+<label for="niveau">الثانية باك علوم الحياة والأرض :</label> 
+<input id="bac2" name="niveau" type="text" readonly style="text-align: center;" />  
+<label for="nom_prenom">تمرينا</label> <br />
+</fieldset>
+
+
+<fieldset id="section-1">
+<legend> المعلومات العامة </legend>
+<label for="nom_prenom">الإسم الكامل :</label> 
+<input id="nom_prenom" name="nom_prenom" type="text" /><br />
+<label for="lycee">اسم الثانوية التأهيلية :</label> 
+<input id="lycee" name="lycee" type="text" /> <br />
+<label for="niveau">المستوى الدراسي :</label> 
+<input id="niveau" name="niveau" type="text" value="" />  <br />
+<label for="annee">السنة الدراسية :</label> 
+<input id="annee" name="annee" type="text" value="" /> 
+</fieldset>
+<fieldset id="section-1">
+<legend> شكل السلسلة </legend>
+<label>شكل السلسلة :</label>
+<select class="list" id = "list_style" onclick="Mon_Style(this.value)">
+</select>
+</fieldset>
+<fieldset id="section-2">
+<legend> إختيار التمارين </legend>
+   <p>لإنشاء سلسلة التمارين يجب أولا إختيار المستوى الدراسي ثم بعد ذلك إسم الدرس وأخيرا التمارين (التمارين ستكون مرتبة في السلسلة حسب ترتيب اختيارها)</p>
+<label>المستوى الدراسي :</label>
+<select class="list" id = "niveau" onclick="Cours(this.value)">
+	<option value='0'>الجذع المشترك العلمي</option>;
+	<option value='1'>الأولى باك علوم تجريبية </option>;
+	<option value='2'>الثانية باك علوم الحياة والأرض</option>;
+</select>
+<p />
+<label>الدرس :</label>
+<select class="list" id = "list_cours" onclick="Exercices(this.value)">
+</select>
+
+<p />
+<label>التمارين :</label>
+<div class="container" dir = "rtl" id = "list_exercices">
+</div>
+<p />
+<p dir="rtl" id="demo"></p>
+</fieldset>
+<form id = "form0" action="/" method="POST">
+<input type="submit" />
+</form>
+<script src="dist.js" defer async></script>
+<a dir="rtl" id="Lien" style="display: none"><span style="color:#0000FF;">T&eacute;l&eacute;charger la S&eacute;rie</span></a></p>
+</fieldset>
+<br/>
+</fieldset>
+<h3 style="text-align: center;">
+من إنجاز نايت
+الياس مجيد أستاذ بالثانوية
+التأهلية وادي الذهب بالدار البيضاء
+<br/>
+gmail : naitlyassemjid@gmail.com
+<br/>
+ N&deg; : 0679668011&nbsp;
+</h3>
+
+<script>
+window.addEventListener("load", function(event) {
+//var stat = [0,0,0,0];
+document.getElementById("tc").value = xml_str.getElementsByTagName("Niveau")[0].getElementsByTagName("Enonce").length;
+document.getElementById("bac1").value = xml_str.getElementsByTagName("Niveau")[1].getElementsByTagName("Enonce").length;
+document.getElementById("bac2").value = xml_str.getElementsByTagName("Niveau")[2].getElementsByTagName("Enonce").length;
+//Charge les style ======================================
+  var x=xml_str.getElementsByTagName("Style");
+var list_style = document.getElementById("list_style");
+var taille = list_style.length;
+// remove
+for(var i=0;i<taille;i++){
+		list_style.remove(0);
+}
+//add element
+for(var i=0;i<x.length;i++){
+  var option = document.createElement("option");
+  option.text = x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+  option.value = i;
+  list_style.add(option);
+ } 
+ //======================================================
+  });
+  
+if (window.XMLHttpRequest)
+{ my_xml=new XMLHttpRequest();
+}
+else
+{
+my_xml=new ActiveXObject("Microsoft.XMLHTTP");
+}
+/////////////////////////////
+my_xml.open("GET",'exercice2.xml',false);
+my_xml.send();
+xml_str=my_xml.responseXML;
+var N=0;
+var C=0;
+var S = 0;
+var Titre ="SansNom.tex";
+var enonce="";
+function Cours(niveau){
+N=niveau;
+EX_tab = [];
+var x=xml_str.getElementsByTagName("Niveau");
+var y=x[niveau].getElementsByTagName("Cours");
+//var cours ='<select name=id>';
+var list_cours = document.getElementById("list_cours");
+var taille = list_cours.length;
+// remove
+for(var i=0;i<taille;i++){
+		list_cours.remove(0);
+}
+//add element
+for(var i=0;i<y.length;i++){
+  var option = document.createElement("option");
+  option.text = y[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+  option.value = i;
+  list_cours.add(option);
+ }
+ Exercices(0);
+}
+//Style serie
+function Mon_Style(st){
+S=st;
+}
+//Exercices 
+function Exercices(cours){
+C=cours;
+EX_tab = [];
+var x=xml_str.getElementsByTagName("Niveau");
+var y=x[N].getElementsByTagName("Cours");
+var z=y[C].getElementsByTagName("Exercices")[0].getElementsByTagName("name");
+Titre = y[C].getElementsByTagName("file")[0].childNodes[0].nodeValue;
+//var cours ='<select name=id>';
+  var list_exercices = document.getElementById("list_exercices");
+  var taille = list_exercices.childNodes.length;
+// remove
+for(var i=0;i<taille;i++){
+     list_exercices.removeChild(list_exercices.childNodes[0]);
+}
+//add element
+for(var i=0;i<y.length;i++){
+var ul = document.getElementById('list_exercices'); //ul
+        var li = document.createElement('li');//li
+        var text = z[i].childNodes[0].nodeValue;;
+        var checkbox = document.createElement('input');
+        checkbox.type = "checkbox";
+        checkbox.name = "name";
+        checkbox.value = i;
+        checkbox.id = "ex";
+		checkbox.onclick= function() { tabex(this);}
+        li.appendChild(checkbox);
+        li.appendChild(document.createTextNode(text));
+        ul.appendChild(li); 
+ }
+}
+//Generation de la table
+var EX_tab = [];
+function tabex(a) {
+  if(a.checked){
+  	EX_tab.push(a.value)
+  }else { 
+		for(var i = 0;i<EX_tab.length;i++){
+			if (EX_tab[i] ==a.value){EX_tab.splice(i, 1);}
+		}
+}
+//Generation file
+
+//DEBUT ==========================================================
+enonce = CodeBase64(xml_str.getElementsByTagName("debut")[S].childNodes[0].nodeValue)
+enonce += CodeBase64("\n");
+//INFO ===========================================================
+var txt = CodeBase64(document.getElementById("annee").value);
+txt += CodeBase64("}\n\\lhead{مادة : الفيزياء والكيمياء\\\\الأستاذ : ");
+txt += CodeBase64(document.getElementById("nom_prenom").value);
+txt += CodeBase64("}\n\\rhead{الثانوية التأهيلية  : " );
+txt += CodeBase64(document.getElementById("lycee").value);
+txt += CodeBase64("\\\\المستوى الدراسي  : ");
+txt += CodeBase64(document.getElementById("niveau").value);
+var nom_cours = document.getElementById("list_cours")[C].text;
+txt += CodeBase64("}\n\\rfoot{");
+txt += CodeBase64(nom_cours);
+txt += CodeBase64("}\n\\lfoot{");
+txt += CodeBase64(document.getElementById("niveau").value);
+txt += CodeBase64("}\n");
+txt += CodeBase64("\\chead{\\centering سلسلة تمارين\\\\ \n");
+txt += CodeBase64(nom_cours); 
+txt += CodeBase64("}\n\\begin{document}\n{\\setstretch{0.1}\n\\ \\\\\\vspace{-0.7cm}\n\\noindent\n.\\dotfill\n");
+txt += CodeBase64("\n");
+enonce += txt;
+//EX  ============================================================
+  for (var i = 0; i< EX_tab.length; i++) {
+    enonce += CodeBase64(xml_str.getElementsByTagName("Niveau")[N].getElementsByTagName("Cours")[C].getElementsByTagName("Exercices")[0].getElementsByTagName("Enonce")[EX_tab[i]].childNodes[0].nodeValue);
+	enonce +=CodeBase64("\n");
+  }
+  enonce += "ClxlbmR7ZG9jdW1lbnR9";
+  enonce = atob(enonce);
+//Affichier le resultat
+var select_el = "التمارين المختارة مرتبة كالأتي : ";
+for(var i = 0;i<EX_tab.length-1;i++) select_el += (Number(EX_tab[i])+1) +" - ";
+if(EX_tab.length>0){ select_el += (Number(EX_tab[EX_tab.length-1])+1)};
+//select_el += "<br/>" + enonce;
+ document.getElementById("demo").innerHTML = select_el;
+}
+
+function b64EncodeUnicode(str) {
+    // first we use encodeURIComponent to get percent-encoded UTF-8,
+    // then we convert the percent encodings into raw bytes which
+    // can be fed into btoa.
+    return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g,
+        function toSolidBytes(match, p1) {
+            return String.fromCharCode('0x' + p1);
+    }));
+}
+function CodeBase64(strOrigine) {
+  var str = strOrigine;
+  var enc = b64EncodeUnicode(str);
+  while(enc.search("=") != "-1"){
+ 	 str += " ";
+ 	 enc = b64EncodeUnicode(str);
+  }
+  return enc;
+}
+
+</script>
+<style>
+.container { border:4px solid #ccc; width:385px; height: 200px; overflow-y: scroll; background-color:#FFF3F3;
+ margin-right:250px;
+ margin-top:0px;
+}
+.list { border:2px solid #ccc; width:400px;}
+body{font-size: 16px;
+	margin: 10px auto;
+	width: 1000px;
+    font-family: Verdana sans-serif;
+    color: #333;}	
+	
+#section-1 label{
+    display: inline-block;
+    width: 200px;
+    padding: 10px 0px 15px 40px;}
+#section-2 label{
+    display: inline-block;
+    width: 200px;
+    padding: 10px 0px 15px 40px;}
+#section-1 input{
+		padding:3px;
+		background-color:#FFF3F3;
+		border-radius:0px;
+		width:400px;
+		box-shadow:1px 1px 2px #C0C0C0 inset;
+	}
+	
+form {
+ background-color:#FAFAFA;
+ padding:10px;
+ width:280px;
+ }
+fieldset {
+ padding:0 20px 20px 20px;
+ margin-bottom:10px;
+ border:1px solid #DF3F3F;
+ }
+legend {
+ color:#DF3F3F;
+ font-weight:bold
+ }
+label {
+ margin-top:1px;
+ }
+label.inline {
+ display:inline;
+ margin-right:50px;
+ }
+textarea, select, option {
+ background-color:#FFF3F3;
+ }
+textarea, select {
+ padding:3px;
+ border:1px solid #F5C5C5;
+ border-radius:0px;
+ width:200px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
+select {
+ margin-top:10px;
+ }
+input[type=radio] {
+ background-color:transparent;
+ border:none;
+ width:10px;
+ }
+input[type=submit], input[type=reset] {
+ width:100px;
+ margin-left:5px;
+ box-shadow:1px 1px 1px #D83F3D;
+ cursor:pointer;
+ }
+.field-set {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-color: 1px #000000;
+    border:#000000 2px solid;
+}
+legend {
+    margin: 0;
+    padding: 0;
+    position: static;
+    border: 0;
+    top: auto; left: auto;
+    float: none;
+    display: block;
+    font-size: 18px;
+    line-height: 18px;
+    width :auto;
+}
+  font-family:Verdana, Geneva, sans-serif;
+  font-size:.9em;
+}
+</style>
+</body>
+</html>
