@@ -261,7 +261,7 @@
 				<Exercices>
 					<Exercice>
 					<N>1</N>
-					<name> تمرين 1</name>
+					<name>تمرين 1</name>
 					<Image>images/Tc/p1/e1.png</Image>
 					<Enonce>%Exercice 5
 \textbf{\begin{exercice}{}/
@@ -338,7 +338,7 @@
 				</Exercice>
 				<Exercice>
 					<N>3</N>
-					<name> تمرين 3</name>
+					<name>تمرين 3</name>
 					<Image>images/Tc/p1/e3.png</Image>
 					<Enonce>%Exercice 7
 \textbf{\begin{exercice}{}/
@@ -371,7 +371,7 @@
 				</Exercice>
 				<Exercice>
 					<N>4</N>
-					<name> تمرين 4 </name>
+					<name>تمرين 4 </name>
 					<Image>images/Tc/p1/e4.png</Image>
 					<Enonce>%Exercice 4
 \textbf{\begin{exercice}{}/
