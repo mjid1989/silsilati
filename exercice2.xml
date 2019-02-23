@@ -2777,7 +2777,7 @@
 	</Cours>
 	<Cours id ="2">
 				<name>أمثلة لثأثيرات ميكانيكية</name>
-				<file>Tc_p2.tex</file>
+				<file>Tc_p2</file>
 				<Exercices>
 				<Exercice>
 					<N>1</N>
@@ -4154,7 +4154,7 @@
 	</Cours>
 	<Cours id ="3">
 				<name>الحركة</name>
-				<file>Tc_p3.tex</file>
+				<file>Tc_p3</file>
 				<Exercices>
 						<Enonce>dr</Enonce>
 						<Solution></Solution>
@@ -4163,98 +4163,98 @@
 	</Cours>
 	<Cours id ="4">
 				<name>مبدأ القصور</name>
-				<file>Tc_p4.tex</file>
+				<file>Tc_p4</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="5">
 				<name>توازن جسم صلب خاضع لقوتين-تطبيقات</name>
-				<file>Tc_p5.tex</file>
+				<file>Tc_p5</file>
 				<Exercices> </Exercices>
 	</Cours>
 	<Cours id ="6">
 				<name>توازن جسم صلب خاضع لثلاث قوى</name>
-				<file>Tc_p6.tex</file>
+				<file>Tc_p6</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="7">
 				<name>توازن جسم صلب قابل للدوران حول محور ثابت</name>
-				<file>Tc_p7.tex</file>
+				<file>Tc_p7</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="8">
 				<name>التيار الكهربائي المستمر</name>
-				<file>Tc_p8.tex</file>
+				<file>Tc_p8</file>
 				<Exercices> </Exercices>
 	</Cours>
 	<Cours id ="9">
 				<name>التوتر الكهربائي</name>
-				<file>Tc_p9.tex</file>
+				<file>Tc_p9</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="10">
 				<name>تجميع الموصلات الاومية</name>
-				<file>Tc_p10.tex</file>
+				<file>Tc_p10</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="11">
 				<name>مميزات بعض تنائيات القطب الغير النشيطة</name>
-				<file>Tc_p11.tex</file>
+				<file>Tc_p11</file>
 				<Exercices> </Exercices>
 	</Cours>
 	<Cours id ="12">
 				<name>مميزات تنائيات القطب النشيطة</name>
-				<file>Tc_p12.tex</file>
+				<file>Tc_p12</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="13">
 				<name>الترانزستور والسلسلة الالكترونية</name>
-				<file>Tc_p13.tex</file>
+				<file>Tc_p13</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="14">
 				<name>المضخم العملياتي</name>
-				<file>Tc_p14.tex</file>
+				<file>Tc_p14</file>
 				<Exercices> </Exercices>
 	</Cours>
 	<Cours id ="15">
 				<name>الانواع الكميائية</name>
-				<file>Tc_p15.tex</file>
+				<file>Tc_p15</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="16">
 				<name>إستخراج وفصل الانواع الكميائية والكشف عنها</name>
-				<file>Tc_p16.tex</file>
+				<file>Tc_p16</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="17">
 				<name>تصنيع الانواع الكيميائية</name>
-				<file>Tc_p17.tex</file>
+				<file>Tc_p17</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="18">
 				<name>نموذج الذرة</name>
-				<file>Tc_p18.tex</file>
+				<file>Tc_p18</file>
 				<Exercices> </Exercices>
 	</Cours>
 	<Cours id ="19">
 				<name>هندسة بعض الجزيئات</name>
-				<file>Tc_p19.tex</file>
+				<file>Tc_p19</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="20">
 				<name>الترتيب الدوري للعناصر الكيميائية</name>
-				<file>Tc_p20.tex</file>
+				<file>Tc_p20</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
@@ -4263,18 +4263,18 @@
 	<N>الأولى باك علوم تجريبية</N>
 	<Cours id ="1">
 				<name>حركة دوران جسم صلب حول محور ثابت</name>
-				<file>Bac_p1.tex</file>
+				<file>Bac_p1</file>
 				<Exercices> </Exercices>
 	</Cours>
 	<Cours id ="2">
 				<name>شغل وقدرة قوة</name>
-				<file>Bac_p2.tex</file>
+				<file>Bac_p2</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="3">
 				<name>الشغل والطاقة الحركية</name>
-				<file>Bac_p3.tex</file>
+				<file>Bac_p3</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
@@ -4283,81 +4283,81 @@
 	<N>الثانية باك علوم الحياة والأرض</N>
 	<Cours id ="1">
 				<name>الموجات الميكانيكية المتوالية</name>
-				<file>Bac2_p1.tex</file>
+				<file>Bac2_p1</file>
 				<Exercices> </Exercices>
 	</Cours>
 	<Cours id ="2">
 				<name>الموجات الميكانيكية الدورية</name>
-				<file>Bac2_p2.tex</file>
+				<file>Bac2_p2</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="3">
 				<name>الموجات الضوئية</name>
-				<file>Bac2_p3.tex</file>
+				<file>Bac2_p3</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="4">
 				<name>التناقص الإشعاعي</name>
-				<file>Bac2_p4.tex</file>
+				<file>Bac2_p4</file>
 				<Exercices> </Exercices>
 	</Cours>
 	<Cours id ="5">
 				<name>النوى-الكتلة والطاقة</name>
-				<file>Bac2_p5.tex</file>
+				<file>Bac2_p5</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="6">
 				<name>تنائي القطب RC</name>
-				<file>Bac2_p6.tex</file>
+				<file>Bac2_p6</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="7">
 				<name>تنائي القطب RL</name>
-				<file>Bac2_p7.tex</file>
+				<file>Bac2_p7</file>
 				<Exercices> </Exercices>
 	</Cours>
 	<Cours id ="8">
 				<name>التذبذبات الحرة في دارة RLC متوالية</name>
-				<file>Bac2_p8.tex</file>
+				<file>Bac2_p8</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="9">
 				<name>التذبذبات الكهربائية القسرية</name>
-				<file>Bac2_p9.tex</file>
+				<file>Bac2_p9</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="10">
 				<name>التحولات السريعة والتحولات البطيئة</name>
-				<file>Bac2_p10.tex</file>
+				<file>Bac2_p10</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="11">
 				<name>التطور الزمني لتحول كيميائي-سرعة التفاعل</name>
-				<file>Bac2_p11.tex</file>
+				<file>Bac2_p11</file>
 				<Exercices> </Exercices>
 	</Cours>
 	<Cours id ="12">
 				<name>التحولات الكيميائية التي تحدث في منحيين</name>
-				<file>Bac2_p12.tex</file>
+				<file>Bac2_p12</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="13">
 				<name>حالة توازن مجموعة كيميائية</name>
-				<file>Bac2_p13.tex</file>
+				<file>Bac2_p13</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
 	<Cours id ="14">
 				<name>التحولات المقرونة بتفاعلات حمض قاعدة في محلول مائي</name>
-				<file>Bac2_p14.tex</file>
+				<file>Bac2_p14</file>
 				<Exercices>
 				</Exercices>
 	</Cours>
