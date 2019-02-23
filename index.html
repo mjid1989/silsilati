@@ -57,7 +57,7 @@
 <legend> إختيار التمارين </legend>
    <p>لإنشاء سلسلة التمارين يجب أولا إختيار المستوى الدراسي ثم بعد ذلك إسم الدرس وأخيرا التمارين (التمارين ستكون مرتبة في السلسلة حسب ترتيب اختيارها)</p>
 <label>المستوى الدراسي :</label>
-<select class="list" id = "niveau" onclick="Cours(this.value)">
+<select class="list" id = "list_niveau" onclick="Cours(this.value)">
 	<option value="" selected disabled hidden>إختر المستوى الدراسي</option>;
 	<option value='0'>الجذع المشترك العلمي</option>;
 	<option value='1'>الأولى باك علوم تجريبية </option>;
@@ -187,7 +187,7 @@ var taill = list_exercices.childNodes.length;
 for(var i=0;i<taill;i++){
      list_exercice.removeChild(list_exercice.childNodes[0]);
 }
-document.getElementById("list_niveau").selectedIndex=0;
+document.getElementById("list_niveau").value =  document.getElementById("list_niveau")[0].value;
 }
 //=======================================================================================================================
 //Exercices 
