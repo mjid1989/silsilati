@@ -206,7 +206,7 @@
 		\newfontfamily\arabicfont[Script=Arabic,Scale=1]{Amiri}
 		\newfontfamily\arabicfontsf[Script=Arabic,Scale=1]{Amiri}
 		\newtcbtheorem[auto counter]{exercice}%
-		{\textbf{تمرين}}{enhanced jigsaw,breakable,before skip=1mm,after skip=1mm,/tcb/bottom= 1 mm ,/tcb/top= 1 mm ,
+		{\textbf{تمرين}}{enhanced jigsaw,breakable,before skip=0mm,after skip=1mm,/tcb/bottom= 1 mm ,/tcb/top= 1 mm ,
 		attach boxed title to top right={xshift=-1cm,yshift=-3mm},
 		fonttitle=\bfseries,varwidth boxed title=0.7\linewidth,
 		colbacktitle=white!45!white,coltitle=white!10!black,colframe=white!50!black,
