@@ -58,6 +58,7 @@
    <p>لإنشاء سلسلة التمارين يجب أولا إختيار المستوى الدراسي ثم بعد ذلك إسم الدرس وأخيرا التمارين (التمارين ستكون مرتبة في السلسلة حسب ترتيب اختيارها)</p>
 <label>المستوى الدراسي :</label>
 <select class="list" id = "niveau" onclick="Cours(this.value)">
+	<option value="" selected disabled hidden>إختر المستوى الدراسي</option>;
 	<option value='0'>الجذع المشترك العلمي</option>;
 	<option value='1'>الأولى باك علوم تجريبية </option>;
 	<option value='2'>الثانية باك علوم الحياة والأرض</option>;
@@ -167,10 +168,28 @@ for(var i=0;i<y.length;i++){
  }
  Exercices(0);
 }
-//Style serie
+//Style serie =============================================================================================================
 function Mon_Style(st){
 S=st;
+document.getElementById("tc").value = xml_str.getElementsByTagName("Niveau")[0].getElementsByTagName("Enonce").length;
+document.getElementById("bac1").value = xml_str.getElementsByTagName("Niveau")[1].getElementsByTagName("Enonce").length;
+document.getElementById("bac2").value = xml_str.getElementsByTagName("Niveau")[2].getElementsByTagName("Enonce").length;
+// remove cours
+var list_cour = document.getElementById("list_cours");
+var taill = list_cours.length;
+// remove
+for(var i=0;i<taill;i++){
+		list_cour.remove(0);
 }
+// remove exercices
+var list_exercice = document.getElementById("list_exercices");
+var taill = list_exercices.childNodes.length;
+for(var i=0;i<taill;i++){
+     list_exercice.removeChild(list_exercice.childNodes[0]);
+}
+document.getElementById("list_niveau").selectedIndex=0;
+}
+//=======================================================================================================================
 //Exercices 
 function Exercices(cours){
 C=cours;
