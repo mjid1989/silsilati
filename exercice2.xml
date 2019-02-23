@@ -3776,7 +3776,7 @@
 					\end{minipage}
 					\begin{minipage}[c]{0.29\linewidth}
 					\begin{center}
-					\fbox{\includegraphics[width=0.9\linewidth]{images/p2_4.png}}\\
+					\fbox{\includegraphics[width=0.9\linewidth]{images/Tc/p2/im1.png}}\\
 					\end{center}
 					\end{minipage}
 					\end{enumerate}}
@@ -3801,7 +3801,7 @@
 					\textbf{نربط كرية حديدية بالطرف السفلي لخيط طرفه العلوي مثبت بحامل (حال 1 ممثلة بالشكل 1).\\
 					يوضع مغنطيس بالقرب من الكرية فينحرف الخيط (حالة 2 ممثلة بالشكل 2).
 					\begin{center}
-					\fbox{\includegraphics[width=0.5\linewidth]{images/p2_5.png}}\\
+					\fbox{\includegraphics[width=0.5\linewidth]{images/Tc/p2/im2.png}}\\
 					\end{center}
 					\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
 					\item أجرد القوى المطبقة على الكرية في الحالة 1 ومثل بدون سلم متجهات القوى في الشكل 1.
@@ -3850,7 +3850,7 @@
 					\end{minipage}
 					\begin{minipage}[c]{0.39\linewidth}
 					\begin{flushleft}
-					\fbox{\includegraphics[width=0.9\linewidth]{images/p2_e8.png}}
+					\fbox{\includegraphics[width=0.9\linewidth]{images/Tc/p2/im3.png}}
 					\end{flushleft}
 					\end{minipage}
 					\end{enumerate}
@@ -3890,7 +3890,7 @@
 					\end{minipage}
 					\begin{minipage}[c]{0.29\linewidth}
 					\begin{center}
-					\fbox{\includegraphics[width=0.9\linewidth]{images/p2_e9.png}}
+					\fbox{\includegraphics[width=0.9\linewidth]{images/Tc/p2/im4.png}}
 					\end{center}
 					\end{minipage}}
 					\end{exercice}%=== source ===%</Enonce>
@@ -3931,7 +3931,7 @@
 					\end{minipage}
 					\begin{minipage}[c]{0.4\linewidth}
 					\begin{flushleft}
-					\fbox{\includegraphics[width=0.8\linewidth]{images/p2_e10.png}}
+					\fbox{\includegraphics[width=0.8\linewidth]{images/Tc/p2/im5.png}}
 					\end{flushleft}
 					\end{minipage}
 					\end{enumerate}
@@ -3971,7 +3971,7 @@
 					\end{minipage}
 					\begin{minipage}[c]{0.34\linewidth}
 					\begin{flushleft}
-					\fbox{\includegraphics[width=0.9\linewidth]{images/p2_6.png}}
+					\fbox{\includegraphics[width=0.9\linewidth]{images/Tc/p2/im6.png}}
 					\end{flushleft}
 					\end{minipage}
 					\end{enumerate}}
@@ -3999,7 +3999,7 @@
 					\end{minipage}
 					\begin{minipage}[c]{0.64\linewidth}
 					\begin{flushleft}
-					\fbox{\includegraphics[width=0.9\linewidth]{images/p2_7.png}}
+					\fbox{\includegraphics[width=0.9\linewidth]{images/Tc/p2/im7.png}}
 					\end{flushleft}
 					\end{minipage}
 					\end{enumerate}}
@@ -4054,7 +4054,7 @@
 					 $\alpha$
 					  مع الخط المنظمي.
 					\begin{center}
-					\fbox{\includegraphics[width=0.5\linewidth]{images/p2_8.png}}\\
+					\fbox{\includegraphics[width=0.5\linewidth]{images/Tc/p2/im8.png}}\\
 					\end{center}
 					\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
 					\item 
@@ -4114,7 +4114,7 @@
 					\end{minipage}
 					\begin{minipage}[c]{0.24\linewidth}
 					\begin{flushleft}
-					\fbox{\includegraphics[width=0.6\linewidth]{images/p2_9.png}}
+					\fbox{\includegraphics[width=0.6\linewidth]{images/Tc/p2/im9.png}}
 					\end{flushleft}
 					\end{minipage}}
 					\end{exercice}%=== source ===%</Enonce>
