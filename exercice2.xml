@@ -39,7 +39,7 @@
 		\newfontfamily\arabicfont[Script=Arabic,Scale=1]{Amiri}
 		\newfontfamily\arabicfontsf[Script=Arabic,Scale=1]{Amiri}
 		\newtcbtheorem[auto counter]{exercice}%
-		{\textbf{تمرين}}{enhanced jigsaw,breakable,fonttitle=\bfseries\upshape,
+		{\textbf{تمرين}}{enhanced jigsaw,breakable,fonttitle=\bfseries\upshape,before skip=1mm,after skip=1mm,/tcb/bottom= 1 mm ,/tcb/top= 1 mm ,
 			arc=0mm, colback=white!5!white,colframe=black!50!black}{theorem}
 			%Solution ==================================================
 		\newtcbtheorem[]{solution}%
@@ -114,7 +114,7 @@
 		\author{نايت الياس}
 		\setlist[enumerate]{itemsep=0mm}
 		\newtcbtheorem[auto counter]{exercice}%
-		{\textbf{تمرين}}{enhanced jigsaw,breakable,fonttitle=\bfseries\upshape,
+		{\textbf{تمرين}}{enhanced jigsaw,breakable,fonttitle=\bfseries\upshape,before skip=1mm,after skip=1mm,/tcb/bottom= 1 mm ,/tcb/top= 1 mm ,
 			arc=0mm, colback=white!5!white,colframe=black,attach boxed title to top right={yshift=-3mm,xshift=-5mm},colbacktitle=white!20!white,sharpish corners,coltitle=black!40!black}{theorem}
 			%Solution ==================================================
 		\newtcbtheorem[]{solution}%
@@ -206,7 +206,7 @@
 		\newfontfamily\arabicfont[Script=Arabic,Scale=1]{Amiri}
 		\newfontfamily\arabicfontsf[Script=Arabic,Scale=1]{Amiri}
 		\newtcbtheorem[auto counter]{exercice}%
-		{\textbf{تمرين}}{enhanced jigsaw,breakable,/tcb/top=4mm,
+		{\textbf{تمرين}}{enhanced jigsaw,breakable,before skip=1mm,after skip=1mm,/tcb/bottom= 1 mm ,/tcb/top= 1 mm ,
 		attach boxed title to top right={xshift=-1cm,yshift=-3mm},
 		fonttitle=\bfseries,varwidth boxed title=0.7\linewidth,
 		colbacktitle=white!45!white,coltitle=white!10!black,colframe=white!50!black,
@@ -256,10 +256,10 @@
 <Niveau class ="TC">
 	<N>الجذع المشترك العلمي</N>
 	<Cours id ="1">
-				<name>التجاذب الكوني</name>
-				<file>Tc_p1</file>
-				<Exercices>
-					<Exercice>
+			<name>التجاذب الكوني</name>
+			<file>Tc_p1</file>
+			<Exercices>
+				<Exercice>
 					<N>1</N>
 					<name>تمرين 1</name>
 					<Image>images/Tc/p1/e1.png</Image>
@@ -2779,1240 +2779,1586 @@
 				<name>أمثلة لثأثيرات ميكانيكية</name>
 				<file>Tc_p2.tex</file>
 				<Exercices>
-					<Exercice>
-						<name>التمرين 001</name>
-						<Image></Image>
-						<Enonce>%Exercice 1
-						\begin{exercice}{}/
-						\begin{minipage}[c]{0.74\linewidth}
-						يطبق الخيط على الجسم 
-						$(S)$
-						ذي الكتلة 
-						$m=200g$
-						قوة 
-						$\overrightarrow{T}$
-						شدتها
-						$2N$.
-						\begin{enumerate}
-						\item أجرد القوى المطبقة على الجسم 
-						$(S)$
-						وصنفها.
-						\item أعط مميزات كل قوة
-						(نعطي
-						$g=10N.kg^{-1}$
-						).
-						\item باستعمال السلم
-						$1cm\ \longrightarrow\ 1N$
-						مثل هذه القوى.
-						\end{enumerate}
-						\end{minipage}
-						\begin{minipage}[c]{0.24\linewidth}
-						\fbox{
-	\psset{xunit=.5pt,yunit=.5pt,runit=.5pt}
-	\begin{pspicture}(185,244)
-	{
-	\newrgbcolor{curcolor}{0 0 0}
-	\pscustom[linestyle=none,fillstyle=solid,fillcolor=curcolor]
-	{
-	\newpath
-	\moveto(87.94644,235.9661)
-	\lineto(158.94644,235.9661)
-	\lineto(158.94644,232.13559)
-	\lineto(87.94644,232.13559)
-	\closepath
-	}
-	}
-	{
-	\newrgbcolor{curcolor}{0.20392157 0.59607846 0.85882354}
-	\pscustom[linewidth=1,linecolor=curcolor]
-	{
-	\newpath
-	\moveto(87.94644,235.9661)
-	\lineto(158.94644,235.9661)
-	\lineto(158.94644,232.13559)
-	\lineto(87.94644,232.13559)
-	\closepath
-	}
-	}
-	{
-	\newrgbcolor{curcolor}{0 0 0}
-	\pscustom[linewidth=2,linecolor=curcolor]
-	{
-	\newpath
-	\moveto(123.64644,232.13559)
-	\lineto(123.64644,62.73559)
-	}
-	}
-	{
-	\newrgbcolor{curcolor}{0.75294119 0 0}
-	\pscustom[linestyle=none,fillstyle=solid,fillcolor=curcolor]
-	{
-	\newpath
-	\moveto(95.09644,34.45559)
-	\curveto(95.09644,50.05559)(107.79644,62.75559)(123.39644,62.75559)
-	\curveto(139.09644,62.75559)(151.79644,50.05559)(151.79644,34.45559)
-	\curveto(151.79644,18.75559)(139.09644,6.05559)(123.39644,6.05559)
-	\curveto(107.79644,6.05559)(95.09644,18.75559)(95.09644,34.45559)
-	\closepath
-	}
-	}
-	{
-	\newrgbcolor{curcolor}{0 0 0}
-	\pscustom[linewidth=2,linecolor=curcolor]
-	{
-	\newpath
-	\moveto(95.09644,34.45559)
-	\curveto(95.09644,50.05559)(107.79644,62.75559)(123.39644,62.75559)
-	\curveto(139.09644,62.75559)(151.79644,50.05559)(151.79644,34.45559)
-	\curveto(151.79644,18.75559)(139.09644,6.05559)(123.39644,6.05559)
-	\curveto(107.79644,6.05559)(95.09644,18.75559)(95.09644,34.45559)
-	\closepath
-	}
-	}
-	{
-	\newrgbcolor{curcolor}{0 0 0}
-	\pscustom[linewidth=1,linecolor=curcolor]
-	{
-	\newpath
-	\moveto(115.24644,147.1356)
-	\lineto(59.44644,147.1356)
-	}
-	}
-	{
-	\newrgbcolor{curcolor}{0 0 0}
-	\pscustom[linestyle=none,fillstyle=solid,fillcolor=curcolor]
-	{
-	\newpath
-	\moveto(120.44644,147.1356)
-	\lineto(110.04644,150.1356)
-	\lineto(115.24644,147.1356)
-	\lineto(110.04644,144.1356)
-	\lineto(120.44644,147.1356)
-	}
-	}
-	{
-	\newrgbcolor{curcolor}{0 0 0}
-	\pscustom[linewidth=1,linecolor=curcolor]
-	{
-	\newpath
-	\moveto(120.44644,147.1356)
-	\lineto(110.04644,150.1356)
-	\lineto(115.24644,147.1356)
-	\lineto(110.04644,144.1356)
-	\lineto(120.44644,147.1356)
-	}
-	}
-	{
-	\newrgbcolor{curcolor}{0 0 0}
-	\pscustom[linewidth=1,linecolor=curcolor]
-	{
-	\newpath
-	\moveto(59.44644,34.40559)
-	\lineto(89.94644,34.40559)
-	}
-	}
-	{
-	\newrgbcolor{curcolor}{0 0 0}
-	\pscustom[linestyle=none,fillstyle=solid,fillcolor=curcolor]
-	{
-	\newpath
-	\moveto(95.14644,34.40559)
-	\lineto(84.74644,37.40559)
-	\lineto(89.94644,34.40559)
-	\lineto(84.74644,31.40559)
-	\lineto(95.14644,34.40559)
-	}
-	}
-	{
-	\newrgbcolor{curcolor}{0 0 0}
-	\pscustom[linewidth=1,linecolor=curcolor]
-	{
-	\newpath
-	\moveto(95.14644,34.40559)
-	\lineto(84.74644,37.40559)
-	\lineto(89.94644,34.40559)
-	\lineto(84.74644,31.40559)
-	\lineto(95.14644,34.40559)
-	}
-	}
-	{
-	\newrgbcolor{curcolor}{0 0 0}
-	\pscustom[linestyle=none,fillstyle=solid,fillcolor=curcolor]
-	{
-	\newpath
-	\moveto(47.29377983,155.84183924)
-	\lineto(46.60107152,154.5202247)
-	\lineto(45.12450907,155.28584967)
-	\lineto(45.79898822,156.6165788)
-	\closepath
-	\moveto(51.6596651,147.35616244)
-	\lineto(41.13232171,147.35616244)
-	\lineto(41.13232171,148.94209989)
-	\lineto(48.56070687,148.94209989)
-	\curveto(47.94091523,149.4221346)(47.4183458,149.7958325)(46.99299859,150.0631936)
-	\curveto(46.46435278,150.39739498)(45.98127988,150.64045053)(45.54377989,150.79236024)
-	\curveto(45.05159241,150.96249913)(44.55332854,151.04756857)(44.04898828,151.04756857)
-	\curveto(43.73909245,151.04756857)(43.42615844,151.02630121)(43.11018622,150.98376649)
-	\curveto(43.2864015,151.43341925)(43.51730427,151.79496438)(43.80289453,152.06840187)
-	\curveto(44.21608896,152.46336713)(44.73865839,152.66084976)(45.37060281,152.66084976)
-	\curveto(45.99039446,152.66084976)(46.7225993,152.35703033)(47.56721732,151.74939146)
-	\curveto(47.98648814,151.44557203)(48.67008187,150.8683151)(49.6179985,150.01762069)
-	\curveto(50.35324153,149.35529432)(50.85150541,148.99678739)(51.11279012,148.94209989)
-	\lineto(51.6596651,148.94209989)
-	\closepath
-	}
-	}
-	{
-	\newrgbcolor{curcolor}{0 0 0}
-	\pscustom[linestyle=none,fillstyle=solid,fillcolor=curcolor]
-	{
-	\newpath
-	\moveto(41.77034205,147.35616244)
-	\lineto(36.57502972,147.35616244)
-	\lineto(36.57502972,148.94209989)
-	\lineto(41.10497749,148.94209989)
-	\curveto(41.10497749,149.65911375)(41.01990805,150.20598874)(40.84976916,150.58272483)
-	\curveto(40.73431778,150.84400955)(40.44872751,151.22074565)(39.99299836,151.71293313)
-	\lineto(40.70393583,153.19861016)
-	\curveto(41.14143582,152.64565879)(41.41487331,152.2142352)(41.52424831,151.90433937)
-	\curveto(41.6883108,151.43645744)(41.77034205,150.66171789)(41.77034205,149.5801207)
-	\closepath
-	\moveto(41.72476913,145.53324584)
-	\lineto(41.01383166,144.22074588)
-	\lineto(39.53726921,145.00460002)
-	\lineto(40.22086293,146.3079854)
-	\closepath
-	\moveto(39.62841504,144.71293337)
-	\lineto(38.93570673,143.39131883)
-	\lineto(37.45914428,144.1569438)
-	\lineto(38.13362342,145.47855834)
-	\closepath
-	}
-	}
-	{
-	\newrgbcolor{curcolor}{0 0 0}
-	\pscustom[linestyle=none,fillstyle=solid,fillcolor=curcolor]
-	{
-	\newpath
-	\moveto(37.20393691,147.35616244)
-	\lineto(25.71044771,147.35616244)
-	\lineto(25.71044771,148.94209989)
-	\lineto(27.10497892,148.95121447)
-	\curveto(27.51817335,148.95121447)(27.90402403,149.00590197)(28.26253096,149.11527697)
-	\curveto(28.67572539,149.24288113)(29.14360732,149.46770751)(29.66617675,149.78975611)
-	\curveto(29.77555174,150.05711721)(29.86365938,150.34270748)(29.93049965,150.64652692)
-	\curveto(29.99733993,150.95642274)(30.03076007,151.25416578)(30.03076007,151.53975605)
-	\curveto(30.03076007,152.18992964)(29.96999618,152.90694351)(29.84846841,153.69079765)
-	\curveto(29.75732258,154.26197818)(29.62060383,154.93341913)(29.43831217,155.70512049)
-	\curveto(29.34108995,156.10616215)(29.21348579,156.59531144)(29.05549968,157.17256836)
-	\lineto(28.49039554,157.45512043)
-	\curveto(28.53293026,157.81970375)(28.59369414,158.1721343)(28.6726872,158.51241206)
-	\curveto(28.75775664,158.85268983)(28.87320802,159.18081482)(29.01904135,159.49678703)
-	\curveto(29.11626357,159.21119676)(29.33805176,158.98940858)(29.68440591,158.83142247)
-	\curveto(29.96999618,158.70381831)(30.3345795,158.61874887)(30.77815588,158.57621415)
-	\curveto(30.71739199,157.95034611)(30.67181907,157.55234265)(30.64143713,157.38220377)
-	\curveto(30.61105519,157.21206489)(30.55332949,157.00242948)(30.46826005,156.75329754)
-	\curveto(30.42572533,156.75937393)(30.31331214,156.78975587)(30.13102048,156.84444337)
-	\lineto(30.0125309,156.8809017)
-	\curveto(30.22520451,156.16996423)(30.39838158,155.43775939)(30.53206213,154.68428719)
-	\curveto(30.67181907,153.93689139)(30.74169754,153.30798516)(30.74169754,152.79756851)
-	\curveto(30.74169754,152.36614491)(30.69916282,151.88611021)(30.61409338,151.35746439)
-	\curveto(30.58371144,151.16909634)(30.52902394,150.87742969)(30.45003089,150.48246442)
-	\curveto(31.51339891,151.09617968)(32.19395444,151.47291578)(32.49169748,151.61267272)
-	\curveto(33.39100301,152.03801992)(34.16270437,152.25069353)(34.80680157,152.25069353)
-	\curveto(35.62711404,152.25069353)(36.2408293,152.01067617)(36.64794734,151.53064147)
-	\curveto(37.01860705,151.09314148)(37.20393691,150.47031164)(37.20393691,149.66215195)
-	\closepath
-	\moveto(35.76383279,149.64392278)
-	\curveto(35.76383279,149.95381861)(35.60280849,150.18775957)(35.28075989,150.34574568)
-	\curveto(34.96478768,150.50980817)(34.50905853,150.59183942)(33.91357244,150.59183942)
-	\curveto(33.46999606,150.59183942)(32.95957941,150.4946172)(32.38232249,150.30017276)
-	\curveto(31.90836417,150.14218665)(31.40402391,149.92343666)(30.86930171,149.64392278)
-	\curveto(30.47433644,149.43732557)(30.0672184,149.2033846)(29.64794758,148.94209989)
-	\lineto(33.6127912,148.94209989)
-	\curveto(35.04681892,148.94209989)(35.76383279,149.17604085)(35.76383279,149.64392278)
-	\closepath
-	}
-	}
-	{
-	\newrgbcolor{curcolor}{0 0 0}
-	\pscustom[linestyle=none,fillstyle=solid,fillcolor=curcolor]
-	{
-	\newpath
-	\moveto(30.67096235,32.09280104)
-	\curveto(29.76558044,33.23516212)(28.99995547,34.57196763)(28.37408743,36.10321757)
-	\curveto(27.7482194,37.63446752)(27.43528538,39.22040497)(27.43528538,40.86102991)
-	\curveto(27.43528538,42.30721042)(27.66922634,43.69262704)(28.13710827,45.01727977)
-	\curveto(28.68398325,46.55460611)(29.52860128,48.08585605)(30.67096235,49.61102961)
-	\lineto(31.84674356,49.61102961)
-	\curveto(31.11150053,48.34714077)(30.62538944,47.44479705)(30.38841028,46.90399846)
-	\curveto(30.01775057,46.06545682)(29.72608391,45.19045685)(29.51341031,44.27899854)
-	\curveto(29.2521256,43.14271386)(29.12148324,42.00035279)(29.12148324,40.85191533)
-	\curveto(29.12148324,37.92917237)(30.02990335,35.00946761)(31.84674356,32.09280104)
-	\closepath
-	}
-	}
-	{
-	\newrgbcolor{curcolor}{0 0 0}
-	\pscustom[linestyle=none,fillstyle=solid,fillcolor=curcolor]
-	{
-	\newpath
-	\moveto(33.37799372,40.31415493)
-	\lineto(35.04596242,40.45998826)
-	\curveto(35.12495547,39.7915855)(35.30724713,39.24167233)(35.5928374,38.81024873)
-	\curveto(35.88450405,38.38490152)(36.33415682,38.03854737)(36.94179569,37.77118627)
-	\curveto(37.54943455,37.50990155)(38.23302828,37.3792592)(38.99257687,37.3792592)
-	\curveto(39.66705601,37.3792592)(40.2625421,37.47951961)(40.77903514,37.68004044)
-	\curveto(41.29552818,37.88056126)(41.67834066,38.15399875)(41.9274726,38.50035291)
-	\curveto(42.18268092,38.85278345)(42.31028509,39.23559594)(42.31028509,39.64879037)
-	\curveto(42.31028509,40.06806119)(42.18875731,40.43264451)(41.94570176,40.74254033)
-	\curveto(41.70264622,41.05851254)(41.30160456,41.32283545)(40.74257681,41.53550905)
-	\curveto(40.38406987,41.67526599)(39.59110115,41.89097779)(38.36367064,42.18264445)
-	\curveto(37.13624012,42.48038749)(36.27643112,42.75990137)(35.78424364,43.02118609)
-	\curveto(35.14622283,43.35538746)(34.66922632,43.7685819)(34.35325411,44.26076938)
-	\curveto(34.04335828,44.75903325)(33.88841037,45.31502281)(33.88841037,45.92873807)
-	\curveto(33.88841037,46.60321722)(34.07981662,47.23212344)(34.4626291,47.81545676)
-	\curveto(34.84544159,48.40486646)(35.40446935,48.85148103)(36.13971238,49.15530046)
-	\curveto(36.87495541,49.4591199)(37.69222969,49.61102961)(38.59153521,49.61102961)
-	\curveto(39.58198657,49.61102961)(40.45394834,49.45000531)(41.20742054,49.12795671)
-	\curveto(41.96696912,48.8119845)(42.55030244,48.34410257)(42.95742048,47.72431093)
-	\curveto(43.36453852,47.10451928)(43.58328851,46.40269639)(43.61367046,45.61884225)
-	\lineto(41.91835802,45.49123809)
-	\curveto(41.82721219,46.33585611)(41.51731636,46.97387692)(40.98867055,47.40530052)
-	\curveto(40.46610112,47.83672412)(39.69136156,48.05243592)(38.66445188,48.05243592)
-	\curveto(37.59500747,48.05243592)(36.81419152,47.85495328)(36.32200404,47.45998802)
-	\curveto(35.83589294,47.07109914)(35.5928374,46.60017902)(35.5928374,46.04722765)
-	\curveto(35.5928374,45.56719294)(35.76601448,45.17222768)(36.11236863,44.86233186)
-	\curveto(36.4526464,44.55243604)(37.33979914,44.23342563)(38.77382687,43.90530064)
-	\curveto(40.21393099,43.58325204)(41.20134415,43.30069997)(41.73606636,43.05764442)
-	\curveto(42.51384411,42.69913749)(43.08806284,42.24340834)(43.45872255,41.69045697)
-	\curveto(43.82938226,41.14358198)(44.01471211,40.51163756)(44.01471211,39.7946237)
-	\curveto(44.01471211,39.08368622)(43.81115309,38.41224527)(43.40403505,37.78030085)
-	\curveto(42.99691701,37.15443281)(42.4105455,36.66528353)(41.64492052,36.31285298)
-	\curveto(40.88537194,35.96649883)(40.02860114,35.79332175)(39.07460811,35.79332175)
-	\curveto(37.86540676,35.79332175)(36.85064985,35.96953702)(36.03033738,36.32196757)
-	\curveto(35.2161013,36.67439811)(34.57504229,37.20304392)(34.10716036,37.90790501)
-	\curveto(33.64535483,38.61884249)(33.40229928,39.42092579)(33.37799372,40.31415493)
-	\closepath
-	}
-	}
-	{
-	\newrgbcolor{curcolor}{0 0 0}
-	\pscustom[linestyle=none,fillstyle=solid,fillcolor=curcolor]
-	{
-	\newpath
-	\moveto(47.31419159,32.09280104)
-	\lineto(46.13841038,32.09280104)
-	\curveto(47.9552506,35.00946761)(48.8636707,37.92917237)(48.8636707,40.85191533)
-	\curveto(48.8636707,41.9942764)(48.73302835,43.12752289)(48.47174363,44.2516548)
-	\curveto(48.26514642,45.1631131)(47.97651796,46.03811307)(47.60585825,46.87665471)
-	\curveto(47.36887909,47.42352969)(46.8797298,48.33498799)(46.13841038,49.61102961)
-	\lineto(47.31419159,49.61102961)
-	\curveto(48.45655266,48.08585605)(49.30117069,46.55460611)(49.84804567,45.01727977)
-	\curveto(50.3159276,43.69262704)(50.54986856,42.30721042)(50.54986856,40.86102991)
-	\curveto(50.54986856,39.22040497)(50.23389635,37.63446752)(49.60195193,36.10321757)
-	\curveto(48.97608389,34.57196763)(48.21349711,33.23516212)(47.31419159,32.09280104)
-	\closepath
-	}
-	}
-	\end{pspicture}}
-						\end{minipage}
-						\end{exercice}%=== source ===%</Enonce>
-						<Solution>%Solution 1
+				<Exercice>
+					<N>1</N>
+					<name> تمرين 1</name>
+					<Image>images/Tc/p2/e1.png</Image>
+					<Enonce>%Exercice 1
+\begin{exercice}{}/
+					\textbf{\begin{minipage}[c]{0.74\linewidth}
+					يطبق الخيط على الجسم 
+					$\bm{(S)}$
+					ذي الكتلة 
+					$\bm{m=200\ g}$
+					قوة 
+					$\bm{{\overrightarrow{T}}}$
+					شدتها
+					$\bm{T = 2\ N}$.
+					\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+					\item أجرد القوى المطبقة على الجسم 
+					$\bm{(S)}$
+					وصنفها.
+					\item أعط مميزات كل قوة.
+					\item باستعمال السلم
+					$\bm{{1cm\ \longrightarrow\ 1N}}$
+					مثل هذه القوى.
+					\end{enumerate}
+					نعطي
+					$\bm{g=10\ N.kg^{-1}}$.}
+					\end{minipage}
+					\begin{minipage}[c]{0.24\linewidth}
+\definecolor{cffffff}{RGB}{255,255,255}
+\definecolor{cffaf00}{RGB}{255,175,0}
+\begin{flushleft}
+\begin{adjustbox}{width=0.8\linewidth}
+\fbox{
+\begin{tikzpicture}[y=0.80pt, x=0.80pt, yscale=-1.000000, xscale=1.000000, inner sep=0pt, outer sep=0pt]
+\begin{scope}[shift={(-374.5,-77.5)}]
+  \path[shift={(375.5,78.5)},draw=black,fill=cffffff] (0.0000,0.0000) --
+    (205.5000,0.0000) -- (205.5000,297.0000) -- (0.0000,297.0000) --
+    (0.0000,0.0000) -- cycle;
+  \path[shift={(484.0,94.0)},draw=black,fill=black] (0.0000,0.0000) --
+    (71.0000,0.0000) -- (71.0000,5.0000) -- (0.0000,5.0000) -- (0.0000,0.0000) --
+    cycle;
+  \path[cm={{0.01,1.0,-1.0,0.01,(519.5,99.0)}},draw=black,line width=2.133pt]
+    (0.0000,0.0000) -- (194.0000,0.0000);
+  \path[shift={(489.0,293.0)},draw=black,fill=cffaf00,line width=2.133pt]
+    (0.0000,33.0000) .. controls (0.0000,14.8000) and (14.8000,0.0000) ..
+    (33.0000,0.0000) .. controls (51.2000,0.0000) and (66.0000,14.8000) ..
+    (66.0000,33.0000) .. controls (66.0000,51.2000) and (51.2000,66.0000) ..
+    (33.0000,66.0000) .. controls (14.8000,66.0000) and (0.0000,51.2000) ..
+    (0.0000,33.0000) -- cycle;
+  \begin{scope}[shift={(394.7,205.27)}]
+    \path (38,13) node[] (text14) {\Large \textbf{خيط}};
+  \end{scope}
+  \begin{scope}[shift={(394.7,312.77)}]
+    \path (38,13) node[] (text14) {\Large $(S)$};
+  \end{scope}
+  \begin{scope}[shift={(470.3,218.9)}]
+    \path[draw=black,line width=2.133pt] (0.0000,0.0000) -- (42.5000,0.0000);
+    \path[draw=black,fill=black,line cap=round,line width=0.800pt] (49.7000,0.0000)
+      -- (41.2000,-4.9000) .. controls (42.1000,-3.5000) and (42.5000,-1.8000) ..
+      (42.5000,0.0000) .. controls (42.5000,1.8000) and (42.1000,3.5000) ..
+      (41.2000,4.9000) -- (49.7000,0.0000);
+  \end{scope}
+  \begin{scope}[cm={{1.0,-0.02,0.02,1.0,(470.3,326.4)}}]
+    \path[draw=black,line width=2.133pt] (0.0000,0.0000) -- (11.5000,0.0000);
+    \path[draw=black,fill=black,line cap=round,line width=0.800pt] (18.7000,0.0000)
+      -- (10.2000,-4.9000) .. controls (11.1000,-3.5000) and (11.5000,-1.8000) ..
+      (11.5000,0.0000) .. controls (11.5000,1.8000) and (11.1000,3.5000) ..
+      (10.2000,4.9000) -- (18.7000,0.0000);
+  \end{scope}
+  \begin{scope}[shift={(394.7,115.54)}]
+    \path (38,13) node[] (text14) {\Large \textbf{حامل}};
+  \end{scope}
+  \path[shift={(470.3,129.17)},draw=black,line width=2.133pt] (0.0000,0.0000) --
+    (20.7000,0.0000);
+  \begin{scope}[cm={{0.37,-0.93,0.93,0.37,(491.3,128.0)}}]
+    \path[draw=black,line width=2.133pt] (0.0000,0.0000) -- (24.1000,0.0000);
+    \path[draw=black,fill=black,line cap=round,line width=0.800pt] (31.3000,0.0000)
+      -- (22.8000,-4.9000) .. controls (23.6000,-3.5000) and (24.1000,-1.8000) ..
+      (24.1000,0.0000) .. controls (24.1000,1.8000) and (23.6000,3.5000) ..
+      (22.8000,4.9000) -- (31.3000,0.0000);
+  \end{scope}
+\end{scope}
+\end{tikzpicture}}
+\end{adjustbox}
+\end{flushleft}
+					\end{minipage}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 1
 
 
-						%=== source ===%</Solution>
-						</Exercice>
-					<Exercice>
-						<name>التمرين 001</name>
-						<Image></Image>
-						<Enonce>%Exercice 2
-	\begin{exercice}{}/
-						يتحرك جسم صلب 
-						$(S)$
-						فوق سطح مستوي، الأشكال أسفله تمثل أوضاعا مختلفة لهذا الجسم، في أي حالة يتم التماس باحتكاك؟وفي أي حالة يتم التماس بدون احتكاك؟ علل جوابك؟
-
-						\begin{minipage}[c]{0.24\linewidth}
-						\begin{center}
-						\fbox{\includegraphics[width=0.9\linewidth,height=0.7\linewidth]{images/p2im12.png}}
-
-						شكل.أ
-						\end{center}
-						\end{minipage}
-						\begin{minipage}[c]{0.24\linewidth}
-						\begin{center}
-						\fbox{\includegraphics[width=0.9\linewidth,height=0.7\linewidth]{images/p2im13.png}}
-
-						شكل.ب
-						\end{center}
-						\end{minipage}
-						\begin{minipage}[c]{0.24\linewidth}
-						\begin{center}
-						\fbox{\includegraphics[width=0.9\linewidth,height=0.7\linewidth]{images/p2im14.png}}
-
-						شكل.ج
-						\end{center}
-						\end{minipage}
-						\begin{minipage}[c]{0.24\linewidth}
-						\begin{center}
-						\fbox{\includegraphics[width=0.9\linewidth,height=0.7\linewidth]{images/p2im15.png}}
-
-						شكل.د
-						\end{center}
-						\end{minipage}
-						\end{exercice}%=== source ===%</Enonce>
-						<Solution>%Solution 2
-
-
-						%=== source ===%</Solution>
-					</Exercice>
-					<Exercice>
-						<name>التمرين 001</name>
-						<Image></Image>
-						<Enonce>%Exercice 3
-						\begin{exercice}{}/
-						يمثل الشكل جانبه حركة جسم صلب 
-						$(S)$
-						فوق سطح أفقي خشن، شدتا المركبتين 
-						$R_{T}$
-						و
-						$R_{N}$
-						المماسية والمنظمية على التوالي 
-						$2N$
-						و
-						$3,46N$.
-						\begin{enumerate}
-						\begin{minipage}[c]{0.64\linewidth}
-						\item أحسب شدة القوة
-						$\overrightarrow{R}$
-						المقرونة بتأثير السطح.
-						\item أحسب 
-						$K$
-						معامل الإحتكاك واستنتج 
-						$\varphi$
-						زاوية الإحتكاك.
-						\item أعط مميزات القوة 
-						$\overrightarrow{R}$،
-						 تم مثلها مستعينا بالسلم :
-						 $1cm\ \longrightarrow \ 2N$.
-						\end{minipage}
-						\begin{minipage}[c]{0.34\linewidth}
-						\begin{center}
-						\fbox{\includegraphics[width=0.9\linewidth]{images/p2im17.png}}
-						\end{center}
-						\end{minipage}
-						\end{enumerate}
-						\end{exercice}%=== source ===%</Enonce>
-						<Solution>%Solution 3
-
-
-						%=== source ===%</Solution>
-					</Exercice>
-					<Exercice>
-						<name>التمرين 001</name>
-						<Image></Image>
-						<Enonce>%Exercice 4
-	\begin{exercice}{}/
-						يمثل الشكل جانبه خيطا 
-						$(f)$
-						ثبت طرفه العلوي بحامل 
-						$(k)$
-						وعلق في طرفه الآخر جسم صلب 
-						$(c)$
-						كتلته
-						$m$،
-						نهمل كتلة الخيط.
-						\begin{enumerate}
-						\begin{minipage}[c]{0.69\linewidth}
-						\item أجرد القوى المطبقة على المجموعة 
-						$\{(c)\}$.
-
-						هل هذه القوى داخلية أم خارجية؟
-						\item أجرد القوى المطبقة على المجموعة 
-						$\{(f)\}$.
-
-						هل هذه القوى داخلية أم خارجية؟
-						\item أجرد القوى المطبقة على المجموعة 
-						$\{(c)+(f)\}$
-						،ثم صنفها.
-						\end{minipage}
-						\begin{minipage}[c]{0.29\linewidth}
-						\begin{center}
-						\fbox{\includegraphics[width=0.7\linewidth]{images/p2im18.png}}
-						\end{center}
-						\end{minipage}
-						\end{enumerate}
-						\end{exercice}%=== source ===%</Enonce>
-						<Solution>%Solution 4
-
-
-						%=== source ===%</Solution>
-					</Exercice>
-					<Exercice>
-						<name>التمرين 001</name>
-						<Image></Image>
-						<Enonce>%Exercice 5
-	\begin{exercice}{}/
-						\begin{enumerate}
-						\item أحسب 
-						$F$
-						شدة القوة الضاغطة المطبقة من طرف الهواء على واجهة نافذة طولها 
-						$L=1,20m$
-						وعرضها 
-						$l=1,0m$
-						علما أن الضغط الجوي هو :
-						$1atm$
-						\item أوجد 
-						$m$
-						كتلة جسم صلب شدة وزنه
-						$P=F$
-						\item إشرح لماذا لا ينكسر زجاج النافذة تحت تأثير الهواء؟
-						\item باعتمادك على المضغاط الفرقي التالي قارن الضغط داخل الكرة
-						$P_1$
-						مع الضغط الجوي 
-						$P_0$
-						.ثم أقرن بكل حرف إسمه على الشكل.
-						\end{enumerate}
-						\end{exercice}%=== source ===%</Enonce>
-						<Solution>%Solution 5
-
-
-						%=== source ===%</Solution>
-					</Exercice>
-					<Exercice>
-						<name>التمرين 001</name>
-						<Image></Image>
-						<Enonce>%Exercice 6
-	\begin{exercice}{}/
-						صف التأثيرات الميكانيكية التالية بوضع العلامة 
-						$\times$
-						في الخانة المناسبة :
-						\begin{center}
-						\begin{tabular}{|c|c|c|}
-						\hline 
-						التأثير الميكانيكي &amp; مفعول سكوني &amp; مفعول تحريكي \\ 
-						\hline 
-						تأثير حمولة على نوابض شاحنة متوقفة &amp;  &amp;  \\ 
-						\hline 
-						تأثير غازات الإحتراق على مكبس محرك &amp;  &amp;  \\ 
-						\hline 
-						تأثير الماء على جدار سد &amp;  &amp;  \\ 
-						\hline 
-						تأثير مغنطيس على كرية فولاذية تمر بالقرب منه &amp;  &amp;  \\ 
-						\hline 
-						تأثير الحبال على جسر معلق &amp;  &amp;  \\ 
-						\hline 
-						تأثير الأرض على كرة قذفت في الهواء &amp;  &amp;  \\ 
-						\hline 
-						تأثير الريح على ناعورة &amp;  &amp;  \\ 
-						\hline 
-						تأثير الأرض على القمر &amp;  &amp;  \\ 
-						\hline 
-						تأثير رياضي على الزانة عند لحظة القفز &amp;  &amp;  \\ 
-						\hline 
-						تأثير الهواء على شراع زورق &amp;  &amp;  \\ 
-						\hline 
-						\end{tabular} 
-						\end{center}
-						\end{exercice}%=== source ===%</Enonce>
-						<Solution>%Solution 6
-
-	\includegraphics[width=\linewidth]{images/p2/s1.png}
-						
-						%=== source ===%</Solution>
-					</Exercice>
-					<Exercice>
-						<name>التمرين 001</name>
-						<Image></Image>
-						<Enonce>%Exercice 7
-	\begin{exercice}{}/
-						صنف تأثيرات التماس التالية بوضع العلامة 
-						$\times$
-						في الخانة المناسبة :
-						\begin{center}
-						\begin{tabular}{|c|c|c|}
-						\hline 
-						التأثير الميكانيكي &amp; مموضع &amp; موزع \\ 
-						\hline 
-						تأثير الهواء على شراع زورق &amp;    &amp;    \\ 
-						\hline 
-						تأثير سيارة على مقطورة &amp;    &amp;    \\ 
-						\hline 
-						تأثير الماء على جدار سد &amp;    &amp;    \\ 
-						\hline 
-						تأثير الهواء على مظلة &amp;    &amp;    \\ 
-						\hline 
-						تأثير حبل على جسر معلق &amp;    &amp;    \\ 
-						\hline 
-						تأثير غازات الإحتراق على مكبس محرك &amp;    &amp;    \\ 
-						\hline 
-						تأثير مسمار على لوح خشبي &amp;    &amp;    \\ 
-						\hline 
-						\end{tabular} 
-						\end{center}
-						\end{exercice}%=== source ===%</Enonce>
-						<Solution>%Solution 7
-
-	\includegraphics[width=\linewidth]{images/p2/s2.png}
-						
-						%=== source ===%</Solution>
-					</Exercice>
-					<Exercice>
-						<name>التمرين 001</name>
-						<Image></Image>
-						<Enonce>%Exercice 8
-	\begin{exercice}{}/
-						فيما يلي تمثيل لمتجهات قوى :
-						\begin{center}
-						\fbox{\includegraphics[width=0.5\linewidth]{images/p2_1.png}}
-						\end{center}
-						\begin{enumerate}
-						\item ماهي المميزة المشتركة بين هذه المتجهات؟
-						\item ماهي المميزة المشتركة بين المتجهات الثلاث الأولى والمتجهتين الأخيرتين؟
-						\end{enumerate}
-						\end{exercice}%=== source ===%</Enonce>
-						<Solution>%Solution 8
-
-	\includegraphics[width=\linewidth]{images/p2/s3.png}
-						
-						%=== source ===%</Solution>
-					</Exercice>
-					<Exercice>
-						<name>التمرين 001</name>
-						<Image></Image>
-						<Enonce>%Exercice 9
-	\begin{exercice}{}/
-						يمثل المبيان التالي متجهة قوة 
-						$\overrightarrow{F}$
-						مثلت في المعلم 
-						$(O,\overrightarrow{i},\overrightarrow{j})$.
-						شدة القوة بالنيوتن 
-						$(N)$.
-						\begin{center}
-						\fbox{\includegraphics[width=0.5\linewidth]{images/p2_2.png}}
-						\end{center}
-						\begin{enumerate}
-						\item حدد الإحداثيتين 
-						$F_x$
-						و
-						$F_y$
-						لمتجهة القوة
-						$\overrightarrow{F}$،
-						 ثم استنتج 
-						 $F$
-						 شدة هذه القوة.
-						 \item عبر عن 
-						 $sin(\alpha)$
-						 و
-						 $cos(\alpha)$
-						 و
-						 $tan(\alpha)$
-						 بدلالة 
-						 $F_x$
-						و
-						$F_y$
-						 و
-						 $F$
-						واحسب قيمتها.
-						\item مثل في نفس المعلم متجهة القوة 
-						$\overrightarrow{F'}=2\overrightarrow{i}+\overrightarrow{j}$.
-						\end{enumerate}
-						\end{exercice}%=== source ===%</Enonce>
-						<Solution>%Solution 9
-
-	\includegraphics[width=\linewidth]{images/p2/s4_1.png}
-						\includegraphics[width=\linewidth]{images/p2/s4_2.png}
-						\includegraphics[width=\linewidth]{images/p2/s4_3.png}
-						\includegraphics[width=\linewidth]{images/p2/s4_4.png}
-						\includegraphics[width=\linewidth]{images/p2/s4_5.png}
-						
-						%=== source ===%</Solution>
-					</Exercice>
-					<Exercice>
-						<name>التمرين 001</name>
-						<Image></Image>
-						<Enonce>%Exercice 10
-	\begin{exercice}{}/
-						\begin{minipage}[c]{0.7\linewidth}
-						نعلق كرة بطرف خيط ثم نغمرها في الماء.
-						\begin{enumerate}
-						\item أجرد جميع التأثيرات الميكانيكية المطبقة على الكرة.
-						\item أنقل الشكل، ومثل بدون سلم متجهات القوى المقرونة بهذه التأثيرات.
-						\end{enumerate}
-						\end{minipage}
-						\begin{minipage}[c]{0.29\linewidth}
-						\begin{center}
-						\fbox{\includegraphics[width=0.5\linewidth]{images/p2_3.png}}\\
-						\end{center}
-						\end{minipage}
-						\end{exercice}%=== source ===%</Enonce>
-						<Solution>%Solution 10
-
-	\includegraphics[width=\linewidth]{images/p2/s5.png}
-						
-						%=== source ===%</Solution>
-					</Exercice>
-					<Exercice>
-						<name>التمرين 001</name>
-						<Image></Image>
-						<Enonce>%Exercice 11
-	\begin{exercice}{}/
-						وضعت كرتان 
-						$(S_1)$
-						و
-						$(S_2)$
-						بين جدرانين مستويين ورأسيين 
-						$AB$
-						و
-						$CD$،
-						بحيث يتحقق توازنهما. مركزا الكرتين 
-						$O_1$
-						و
-						$O_2$
-						والنقطة 
-						$A$
-						تنتمي إلى نفس لمستقيم. نعتبر الإحتكاكات مهملة.
-						\begin{enumerate}
-						\begin{minipage}[c]{0.7\linewidth}
-						\item أجرد القوى المطبقة على كل من الكرتين، وصنفها في جدول الى قوى تماس وقوى عن بعد محددا مميزاتها التالية :
-						\begin{itemize}
-						\item نقطة التأثير.
-						\item خط التأثير.
-						\item المنحى.
-						\end{itemize}
-						\item أنقل الشكل، ومثل بدون سلم متجهات القوى المطبقة على كل من الكرتين.
-						\end{minipage}
-						\begin{minipage}[c]{0.29\linewidth}
-						\begin{center}
-						\fbox{\includegraphics[width=0.9\linewidth]{images/p2_4.png}}\\
-						\end{center}
-						\end{minipage}
-						\end{enumerate}
-						\end{exercice}%=== source ===%</Enonce>
-						<Solution>%Solution 11
-
-	\includegraphics[width=\linewidth]{images/p2/s6_1.png}
-						\includegraphics[width=\linewidth]{images/p2/s6_2.png}
-						\includegraphics[width=\linewidth]{images/p2/s6_3.png}
-						\includegraphics[width=\linewidth]{images/p2/s6_4.png}
-						\includegraphics[width=\linewidth]{images/p2/s6_5.png}
-						\includegraphics[width=\linewidth]{images/p2/s6_6.png}
-						
-						%=== source ===%</Solution>
-					</Exercice>
-					<Exercice>
-						<name>التمرين 001</name>
-						<Image></Image>
-						<Enonce>%Exercice 12
-	\begin{exercice}{}/
-						نربط كرية حديدية بالطرف السفلي لخيط طرفه العلوي مثبت بحامل (حال 1 ممثلة بالشكل 1).\\
-						يوضع مغنطيس بالقرب من الكرية فينحرف الخيط (حالة 2 ممثلة بالشكل 2).
-						\begin{center}
-						\fbox{\includegraphics[width=0.5\linewidth]{images/p2_5.png}}\\
-						\end{center}
-						\begin{enumerate}
-						\item أجرد القوى المطبقة على الكرية في الحالة 1 ومثل بدون سلم متجهات القوى في الشكل 1.
-						\item أجرد القوى المطبقة على الكرية في الحالة 2 ومثل بدون سلم متجهات القوى في الشكل 2.
-						\end{enumerate}
-						\end{exercice}%=== source ===%</Enonce>
-						<Solution>%Solution 12
-
-	\includegraphics[width=\linewidth]{images/p2/s7.png}
-						
-						%=== source ===%</Solution>
-					</Exercice>
-					<Exercice>
-						<name>التمرين 001</name>
-						<Image></Image>
-						<Enonce>%Exercice 13
-	\begin{exercice}{}/
-						وضع جسم صلب 
-						$(S)$
-						كتلته 
-						$m=1kg$
-						على سطح مستوي ومائل بالزاوية 
-						$\alpha=20°$
-						بالنسبة للمستوى الأفقي.\\
-						يلاحظ أن الجسم لا ينزلق على السطح ويبقى في حالة توازن.
-						\begin{center}
-						\fbox{\includegraphics[width=0.5\linewidth]{images/p2_e8.png}}
-						\end{center}
-						\begin{enumerate}
-						\item أجرد القوى المطبقة على 
-						$(S)$.
-						\item بتطبيق شرط توازن جسم صلب خاضع لقوتين بين أن التماس بين 
-						$(S)$
-						والسطح يتم باحتكاك.
-						\item حدد شدة 
-						$\overrightarrow{R}$
-						المقرونة بتأثير سطح التماس على 
-						$(S)$
-						وقيمة زاوية الإحتكاك 
-						 $\varphi$
-						 \item استنتج شدة المركبتين المماسية 
-						 $\overrightarrow{R}_T$
-						 والمنظمية
-						  $\overrightarrow{R}_N$
-						 للقوة
-						  $\overrightarrow{R}$.
-						\end{enumerate}
-						نعطي : شدة الثقالة 
-						$g=10N.kg^{-1}$.
-						\end{exercice}%=== source ===%</Enonce>
-						<Solution>%Solution 13
-
-	\includegraphics[width=\linewidth]{images/p2/s8_1.png}
-						\includegraphics[width=\linewidth]{images/p2/s8_2.png}
-						\includegraphics[width=\linewidth]{images/p2/s8_3.png}
-						\includegraphics[width=\linewidth]{images/p2/s8_4.png}
-						\includegraphics[width=\linewidth]{images/p2/s8_5.png}
-						\includegraphics[width=\linewidth]{images/p2/s8_6.png}
-						\includegraphics[width=\linewidth]{images/p2/s8_7.png}
-						
-						%=== source ===%</Solution>
-					</Exercice>
-					<Exercice>
-						<name>التمرين 001</name>
-						<Image></Image>
-						<Enonce>%Exercice 14
-	\begin{exercice}{}/
-						على سطح مستوي وأفقي، وضع جسم صلب أسطواني الشكل كتلته 
-						$m=10kg$
-						وقطر قاعدته 
-						$d=10cm$.
-						\begin{minipage}[c]{0.69\linewidth}
-						\begin{enumerate}
-						\item أحسب شدة القوة الضاغطة التي يطبقها الجسم على سطح التماس.
-						\item مثل متجهة القوة الضاغطة باستعمال سلم مناسب.
-						\item أحسب قيمة الضعط الذي يطبقه الجسم على سطح التماس.
-						\end{enumerate}
-						نعطي : شدة الثقالة 
-						$g=10N.kg^{-1}$.
-						\end{minipage}
-						\begin{minipage}[c]{0.29\linewidth}
-						\begin{center}
-						\fbox{\includegraphics[width=0.9\linewidth]{images/p2_e9.png}}
-						\end{center}
-						\end{minipage}
-						\end{exercice}%=== source ===%</Enonce>
-						<Solution>%Solution 14
-
-	\includegraphics[width=\linewidth]{images/p2/s9_1.png}
-						\includegraphics[width=\linewidth]{images/p2/s9_2.png}
-						\includegraphics[width=\linewidth]{images/p2/s9_3.png}
-						
-						%=== source ===%</Solution>
-					</Exercice>
-					<Exercice>
-						<name>التمرين 001</name>
-						<Image></Image>
-						<Enonce>%Exercice 15
-	\begin{exercice}{}/
-						في سائل يتغير الضغط 
-						$p$
-						بدلالة العمق 
-						$h$
-						حسب العلاقة التالية 
-						$p-p_0=\rho.g.h$\\
-						حيث 
-						$p_0$
-						الضغط الجوي، و
-						$\rho$
-						الكتلة الحجمية للسائل.
-
-						\begin{enumerate}
-						\item باستغلال علاقة الضغط بالعمق، فسر لماذا ينبغي أن تكون قاعدة سد أعرض من جزئه العلوي.
-						\item أحسب قيمة ضغط الماء عند العمق 
-						$h=60m$.
-						\item أحسب شدة القوة الضاغطة المطبقة على غطاء سِكْر له شكل قرص قطره 
-						$d=1,0m$
-						عند العمق 
-						$h=60m$.
-						\end{enumerate}
-						\begin{center}
-						\fbox{\includegraphics[width=0.5\linewidth]{images/p2_e10.png}}
-						\end{center}
-						نعطي :
-						\begin{itemize}
-						\item الضغط الجوي :
-						$p_0=1,0.10^5Pa$.
-						\item شدة الثقالة : 
-						$g=10N.kg^{-1}$.
-						\item الكتلة الحجمية للماء : 
-						$\rho=1,0.10^3kg.m^{-3}$.
-						\end{itemize}
-						\end{exercice}%=== source ===%</Enonce>
-						<Solution>%Solution 15
-
-	\includegraphics[width=\linewidth]{images/p2/s10_1.png}
-						\includegraphics[width=\linewidth]{images/p2/s10_2.png}
-						\includegraphics[width=\linewidth]{images/p2/s10_3.png}
-						\includegraphics[width=\linewidth]{images/p2/s10_4.png}
-						
-						%=== source ===%</Solution>
-					</Exercice>
-					<Exercice>
-						<name>التمرين 001</name>
-						<Image></Image>
-						<Enonce>%Exercice 16
-	\begin{exercice}{}/
-						نقرب عارضة مكهربة من كرية مكهربة فولاذية معلقة بواسطة خيط ثبت طرفه إلى حامل.
-						\begin{enumerate}
-						\begin{minipage}[c]{0.64\linewidth}
-						\item أجرد القوى المطبقة على الكرية.
-						\item صنف هذه القوى إلى قوى تماس و قوى عن بعد وقوى تماس مموضعة و قوى تماس موزعة.
-						\item هل هذه القوى داخلية أم خارجية؟
-						\item
-						 إذا اختيرت المجموعة \{الكرية ، الخيط\} . هل القوة التي يطبقها الخيط على الكرية داخلية أم خارجية؟ علل جوابك.
-						\end{minipage}
-						\begin{minipage}[c]{0.34\linewidth}
-						\begin{center}
-						\fbox{\includegraphics[width=0.9\linewidth]{images/p2_6.png}}\\
-						\end{center}
-						\end{minipage}
-						\end{enumerate}
-						\end{exercice}%=== source ===%</Enonce>
-						<Solution>%Solution 16
+					%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>2</N>
+					<name> تمرين 2</name>
+					<Image>images/Tc/p2/e2.png</Image>
+					<Enonce>%Exercice 2
+\begin{exercice}{}/
+\definecolor{cffffff}{RGB}{255,255,255}
+\definecolor{cffaf00}{RGB}{255,175,0}
+\definecolor{c3498db}{RGB}{52,152,219}
+					\textbf{يتحرك جسم صلب 
+					$\bm{(S)}$
+					فوق سطح مستوي، الأشكال أسفله تمثل أوضاعا مختلفة لهذا الجسم، في أي حالة يتم التماس باحتكاك؟وفي أي حالة يتم التماس بدون احتكاك؟ علل جوابك؟\\
+					\begin{minipage}[c]{0.24\linewidth}
+					\begin{center}
+					\begin{adjustbox}{width=0.9\linewidth}
+					\fbox{\begin{tikzpicture}[y=0.80pt, x=0.80pt, yscale=-1.000000, xscale=1.000000, inner sep=0pt, outer sep=0pt]
+\begin{scope}[shift={(-837.0,-395.26)}]
+  \path[shift={(838.0,396.26)},draw=black,fill=cffffff] (0.0000,0.0000) --
+    (237.2000,0.0000) -- (237.2000,208.0000) -- (0.0000,208.0000) --
+    (0.0000,0.0000) -- cycle;
+  \path[shift={(846.0,595.0)},draw=black,line width=2.133pt] (0.0000,0.0000) --
+    (222.0000,0.0000);
+  \path[shift={(937.0,554.14)},draw=black,fill=cffaf00] (0.0000,0.0000) --
+    (66.2000,0.0000) -- (66.2000,38.9000) -- (0.0000,38.9000) -- (0.0000,0.0000)
+    -- cycle;
+  \begin{scope}[cm={{-0.46,-0.89,0.89,-0.46,(970.1,593.0)}}]
+    \path[draw=black,line width=2.133pt] (0.0000,0.0000) -- (133.8000,0.0000);
+    \path[draw=black,line join=round,line cap=round,line width=2.133pt]
+      (136.5000,0.0000) .. controls (131.0000,0.0000) and (126.7000,-2.2000) ..
+      (126.7000,-4.9000)(136.5000,0.0000) .. controls (131.0000,0.0000) and
+      (126.7000,2.2000) .. (126.7000,4.9000);
+  \end{scope}
+  \begin{scope}[shift={(890.46,510.85)}]
+    \path (16,11) node[] (text15) {\Large $\bm{\overrightarrow{R}}$};
+  \end{scope}
+  \begin{scope}[shift={(890.46,551.11)}]
+    \path (16,11) node[] (text15) {\Large $\bm{(S)}$};
+  \end{scope}
+  \path[cm={{0.0,-1.0,1.0,0.0,(970.0,596.0)}},draw=black,dash pattern=on 2.00pt
+    off 2.00pt,line width=1.600pt] (0.0000,0.0000) -- (165.0000,0.0000);
+\end{scope}
+\end{tikzpicture}}
+\end{adjustbox}\\
+					شكل.أ
+					\end{center}
+					\end{minipage}
+					\begin{minipage}[c]{0.24\linewidth}
+					\begin{center}
+					\begin{adjustbox}{width=0.9\linewidth}
+					\fbox{\begin{tikzpicture}[y=0.80pt, x=0.80pt, yscale=-1.000000, xscale=1.000000, inner sep=0pt, outer sep=0pt]
+\begin{scope}[shift={(-575.38,-395.26)}]
+  \path[shift={(576.38,396.26)},draw=black,fill=cffffff] (0.0000,0.0000) --
+    (237.2000,0.0000) -- (237.2000,208.0000) -- (0.0000,208.0000) --
+    (0.0000,0.0000) -- cycle;
+  \path[shift={(582.33,595.0)},draw=black,line width=2.133pt] (0.0000,0.0000) --
+    (222.0000,0.0000);
+  \path[shift={(666.92,554.14)},draw=black,fill=cffaf00] (0.0000,0.0000) --
+    (66.2000,0.0000) -- (66.2000,38.9000) -- (0.0000,38.9000) -- (0.0000,0.0000)
+    -- cycle;
+  \begin{scope}[cm={{0.0,-1.0,1.0,0.0,(700.0,593.0)}}]
+    \path[draw=black,line width=2.133pt] (0.0000,0.0000) -- (127.3000,0.0000);
+    \path[draw=black,line join=round,line cap=round,line width=2.133pt]
+      (130.0000,0.0000) .. controls (124.6000,0.0000) and (120.2000,-2.2000) ..
+      (120.2000,-4.9000)(130.0000,0.0000) .. controls (124.6000,0.0000) and
+      (120.2000,2.2000) .. (120.2000,4.9000);
+  \end{scope}
+  \begin{scope}[shift={(711.46,496.85)}]
+    \path (16,11) node[] (text15) {\Large $\bm{\overrightarrow{R}}$};
+  \end{scope}
+  \begin{scope}[shift={(620.38,551.11)}]
+    \path (16,11) node[] (text15) {\Large $\bm{(S)}$};
+  \end{scope}
+\end{scope}
+\end{tikzpicture}}
+\end{adjustbox}\\
+					شكل.ب
+					\end{center}
+					\end{minipage}
+					\begin{minipage}[c]{0.24\linewidth}
+					\begin{center}
+					\begin{adjustbox}{width=0.9\linewidth}
+					\fbox{\begin{tikzpicture}[y=0.80pt, x=0.80pt, yscale=-1.000000, xscale=1.000000, inner sep=0pt, outer sep=0pt]
+\begin{scope}[shift={(-312.88,-395.26)}]
+  \path[shift={(313.88,396.26)},draw=black,fill=cffffff] (0.0000,0.0000) --
+    (237.2000,0.0000) -- (237.2000,208.0000) -- (0.0000,208.0000) --
+    (0.0000,0.0000) -- cycle;
+  \path[shift={(318.67,595.0)},draw=black,line width=2.133pt] (0.0000,0.0000) --
+    (222.0000,0.0000);
+  \path[cm={{0.9,-0.43,0.43,0.9,(416.1,504.9)}},draw=black,fill=cffaf00]
+    (0.0000,0.0000) -- (66.2000,0.0000) -- (66.2000,38.9000) -- (0.0000,38.9000)
+    -- (0.0000,0.0000) -- cycle;
+  \begin{scope}[shift={(376.92,568.19)}]
+    \path (16,11) node[] (text15) {\Large $\bm{\alpha}$};
+  \end{scope}
+  \path[cm={{0.9,-0.43,0.43,0.9,(319.0,595.0)}},draw=black,line width=2.133pt]
+    (0.0000,0.0000) -- (241.9000,0.0000);
+  \path[shift={(319.76,595.0)},draw=black] (49.1000,0.0000) .. controls
+    (49.1000,-7.2000) and (47.5000,-14.3000) .. (44.5000,-20.9000)(5.7000,0.0000)
+    -- (63.1000,0.0000) -- (5.7000,0.0000) -- cycle(5.4000,-2.5000) --
+    (57.2000,-26.8000) -- (5.4000,-2.5000) -- cycle;
+  \path[cm={{0.0,-1.0,1.0,0.0,(463.0,590.0)}},draw=black,dash pattern=on 2.00pt
+    off 2.00pt,line width=1.600pt] (0.0000,0.0000) -- (165.0000,0.0000);
+  \begin{scope}[cm={{-0.44,-0.9,0.9,-0.44,(462.6,525.8)}}]
+    \path[draw=black,line width=2.133pt] (0.0000,0.0000) -- (102.1000,0.0000);
+    \path[draw=black,line join=round,line cap=round,line width=2.133pt]
+      (104.8000,0.0000) .. controls (99.3000,0.0000) and (95.0000,-2.2000) ..
+      (95.0000,-4.9000)(104.8000,0.0000) .. controls (99.3000,0.0000) and
+      (95.0000,2.2000) .. (95.0000,4.9000);
+  \end{scope}
+  \begin{scope}[shift={(376.92,442.59)}]
+    \path (16,11) node[] (text15) {\Large $\bm{\overrightarrow{R}}$};
+  \end{scope}
+  \begin{scope}[shift={(376.92,496.85)}]
+    \path (16,11) node[] (text15) {\Large $\bm{(S)}$};
+  \end{scope}
+  \path[cm={{0.9,-0.43,0.43,0.9,(447.9,520.3)}},draw=black,line width=1.067pt]
+    (0.0000,0.0000) -- (11.3000,0.0000) -- (11.3000,11.3000) -- (0.0000,11.3000)
+    -- (0.0000,0.0000) -- cycle;
+\end{scope}
+\end{tikzpicture}}
+\end{adjustbox}\\
+					شكل.ج
+					\end{center}
+					\end{minipage}
+					\begin{minipage}[c]{0.24\linewidth}
+					\begin{center}
+					\begin{adjustbox}{width=0.9\linewidth}
+					\fbox{\begin{tikzpicture}[y=0.80pt, x=0.80pt, yscale=-1.000000, xscale=1.000000, inner sep=0pt, outer sep=0pt]
+\begin{scope}[shift={(-47.76,-396.0)}]
+  \path[shift={(48.76,397.0)},draw=black,fill=cffffff] (0.0000,0.0000) --
+    (237.2000,0.0000) -- (237.2000,208.0000) -- (0.0000,208.0000) --
+    (0.0000,0.0000) -- cycle;
+  \path[cm={{0.9,-0.43,0.43,0.9,(152.1,504.9)}},draw=black,fill=cffaf00]
+    (0.0000,0.0000) -- (66.2000,0.0000) -- (66.2000,38.9000) -- (0.0000,38.9000)
+    -- (0.0000,0.0000) -- cycle;
+  \begin{scope}[shift={(112.92,568.19)}]
+    \path (16,11) node[] (text15) {\Large $\bm{\alpha}$};
+  \end{scope}
+  \path[shift={(55.0,595.0)},draw=black,line width=2.133pt] (0.0000,0.0000) --
+    (222.0000,0.0000);
+  \path[cm={{0.9,-0.43,0.43,0.9,(55.0,595.0)}},draw=black,line width=2.133pt]
+    (0.0000,0.0000) -- (241.9000,0.0000);
+  \path[shift={(55.76,595.0)},draw=black] (49.1000,0.0000) .. controls
+    (49.1000,-7.2000) and (47.5000,-14.3000) .. (44.5000,-20.9000)(5.7000,0.0000)
+    -- (63.1000,0.0000) -- (5.7000,0.0000) -- cycle(5.4000,-2.5000) --
+    (57.2000,-26.8000) -- (5.4000,-2.5000) -- cycle;
+  \path[cm={{-0.45,-0.89,0.89,-0.45,(219.0,564.0)}},draw=black,dash pattern=on
+    2.00pt off 2.00pt,line width=1.600pt] (0.0000,0.0000) -- (148.0000,0.0000);
+  \begin{scope}[cm={{0.0,-1.0,1.0,0.0,(198.6,525.8)}}]
+    \path[draw=black,line width=2.133pt] (0.0000,0.0000) -- (103.1000,0.0000);
+    \path[draw=black,line join=round,line cap=round,line width=2.133pt]
+      (105.8000,0.0000) .. controls (100.4000,0.0000) and (96.0000,-2.2000) ..
+      (96.0000,-4.9000)(105.8000,0.0000) .. controls (100.4000,0.0000) and
+      (96.0000,2.2000) .. (96.0000,4.9000);
+  \end{scope}
+  \begin{scope}[shift={(205.46,442.59)}]
+    \path (16,11) node[] (text15) {\Large $\bm{\overrightarrow{R}}$};
+  \end{scope}
+  \begin{scope}[shift={(112.92,496.85)}]
+    \path (16,11) node[] (text15) {\Large $\bm{(S)}$};
+  \end{scope}
+  \path[cm={{0.9,-0.43,0.43,0.9,(184.9,520.3)}},draw=black,line width=1.067pt]
+    (0.0000,0.0000) -- (11.3000,0.0000) -- (11.3000,11.3000) -- (0.0000,11.3000)
+    -- (0.0000,0.0000) -- cycle;
+\end{scope}
+\end{tikzpicture}}
+\end{adjustbox}\\
+					شكل.د
+					\end{center}
+					\end{minipage}}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 2
 
 
-						%=== source ===%</Solution>
-					</Exercice>
-					<Exercice>
-						<name>التمرين 001</name>
-						<Image></Image>
-						<Enonce>%Exercice 17
-	\begin{exercice}{}/
-						نجر جسما 
-						$(S)$
-						بواسطة خيط غير قابل للتمدد على سطح أفقي ثم على سطح مائل كما يبين الشكل جانبه. مثل بدون سلم القوى المطبقة على
-						$(S)$
-						في الحالتين :
-						\begin{enumerate}
-						\begin{minipage}[c]{0.34\linewidth}
-						\item التماس يتم بدون احتكاك.
-						\item التماس يتم باحتكاك.
-						\end{minipage}
-						\begin{minipage}[c]{0.64\linewidth}
-						\begin{center}
-						\fbox{\includegraphics[width=0.9\linewidth]{images/p2_7.png}}\\
-						\end{center}
-						\end{minipage}
-						\end{enumerate}
-						\end{exercice}%=== source ===%</Enonce>
-						<Solution>%Solution 17
+					%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>3</N>
+					<name> تمرين 3</name>
+					<Image>images/Tc/p2/e3.png</Image>
+					<Enonce>%Exercice 3
+\begin{exercice}{}/
+					\textbf{يمثل الشكل جانبه حركة جسم صلب 
+					$\bm{(S)}$
+					فوق سطح أفقي خشن، شدتا المركبتين 
+					$\bm{R_{T}}$
+					و
+					$\bm{R_{N}}$
+					المماسية والمنظمية على التوالي 
+					$\bm{2N}$
+					و
+					$\bm{3,46N}$.
+					\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+					\begin{minipage}[c]{0.64\linewidth}
+					\item أحسب شدة القوة
+					$\bm{{\overrightarrow{R}}}$
+					المقرونة بتأثير السطح.
+					\item أحسب 
+					$\bm{k}$
+					معامل الإحتكاك واستنتج 
+					$\bm{\varphi}$
+					زاوية الإحتكاك.
+					\item أعط مميزات القوة 
+					$\bm{{\overrightarrow{R}}}$،
+					 تم مثلها مستعينا بالسلم :
+					 $\bm{{1cm\ \longrightarrow \ 2N}}$.
+					\end{minipage}
+					\begin{minipage}[c]{0.34\linewidth}
+					\definecolor{cffffff}{RGB}{255,255,255}
+\definecolor{c595959}{RGB}{89,89,89}
+\definecolor{cffaf00}{RGB}{255,175,0}
+\definecolor{c3498db}{RGB}{52,152,219}
+\begin{flushleft}
+\begin{adjustbox}{width=0.8\linewidth}
+\fbox{\begin{tikzpicture}[y=0.80pt, x=0.80pt, yscale=-1.000000, xscale=1.000000, inner sep=0pt, outer sep=0pt]
+\begin{scope}[shift={(-493.0,-863.0)}]
+  \path[shift={(494.0,864.0)},draw=black,fill=cffffff] (0.0000,0.0000) --
+    (346.0000,0.0000) -- (346.0000,197.0000) -- (0.0000,197.0000) --
+    (0.0000,0.0000) -- cycle;
+  \begin{scope}[shift={(495.84,944.0)}]
+    \path[fill=cffffff] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle;
+    \path[draw=c595959] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle(0.0000,38.0000) --
+      (114.0000,38.0000)(0.0000,76.0000) -- (114.0000,76.0000)(38.0000,0.0000) --
+      (38.0000,114.0000)(76.0000,0.0000) -- (76.0000,114.0000);
+  \end{scope}
+  \begin{scope}[shift={(609.92,944.0)}]
+    \path[fill=cffffff] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle;
+    \path[draw=c595959] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle(0.0000,38.0000) --
+      (114.0000,38.0000)(0.0000,76.0000) -- (114.0000,76.0000)(38.0000,0.0000) --
+      (38.0000,114.0000)(76.0000,0.0000) -- (76.0000,114.0000);
+  \end{scope}
+  \begin{scope}[shift={(724.0,944.0)}]
+    \path[fill=cffffff] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle;
+    \path[draw=c595959] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle(0.0000,38.0000) --
+      (114.0000,38.0000)(0.0000,76.0000) -- (114.0000,76.0000)(38.0000,0.0000) --
+      (38.0000,114.0000)(76.0000,0.0000) -- (76.0000,114.0000);
+  \end{scope}
+  \begin{scope}[shift={(495.84,867.0)}]
+    \path[fill=cffffff] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle;
+    \path[draw=c595959] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle(0.0000,38.0000) --
+      (114.0000,38.0000)(0.0000,76.0000) -- (114.0000,76.0000)(38.0000,0.0000) --
+      (38.0000,114.0000)(76.0000,0.0000) -- (76.0000,114.0000);
+  \end{scope}
+  \begin{scope}[shift={(609.92,867.0)}]
+    \path[fill=cffffff] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle;
+    \path[draw=c595959] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle(0.0000,38.0000) --
+      (114.0000,38.0000)(0.0000,76.0000) -- (114.0000,76.0000)(38.0000,0.0000) --
+      (38.0000,114.0000)(76.0000,0.0000) -- (76.0000,114.0000);
+  \end{scope}
+  \begin{scope}[shift={(724.0,867.0)}]
+    \path[fill=cffffff] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle;
+    \path[draw=c595959] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle(0.0000,38.0000) --
+      (114.0000,38.0000)(0.0000,76.0000) -- (114.0000,76.0000)(38.0000,0.0000) --
+      (38.0000,114.0000)(76.0000,0.0000) -- (76.0000,114.0000);
+  \end{scope}
+  \path[shift={(514.0,1021.74)},draw=black,line width=2.933pt] (0.0000,0.0000) --
+    (306.0000,0.0000);
+  \path[shift={(614.84,979.88)},draw=black,fill=cffaf00] (0.0000,0.0000) --
+    (66.2000,0.0000) -- (66.2000,38.9000) -- (0.0000,38.9000) -- (0.0000,0.0000)
+    -- cycle;
+  \begin{scope}[shift={(764.46,952.59)}]
+    \path (17,11) node[] (text45) {\Large \textbf{\textarabic{منحى الحركة}}};
+  \end{scope}
+  \begin{scope}[shift={(568.3,975.85)}]
+    \path (17,11) node[] (text45) {\Large $\bm{(S)}$};
+  \end{scope}
+  \begin{scope}[shift={(733.0,983.0)}]
+    \path[draw=black,line width=1.600pt] (0.0000,0.0000) -- (90.7000,0.0000);
+    \path[draw=black,fill=black,line cap=round,line width=0.800pt] (98.0000,0.0000)
+      -- (83.3000,-4.2000) -- (90.7000,0.0000) -- (83.3000,4.2000) --
+      (98.0000,0.0000);
+  \end{scope}
+  \begin{scope}[shift={(764.46,1027.59)}]
+    \path (17,11) node[] (text45) {\Large \textbf{\textarabic{سطح خشن}}};
+  \end{scope}
+\end{scope}
+\end{tikzpicture}}
+\end{adjustbox}
+\end{flushleft}
+					\end{minipage}
+					\end{enumerate}}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 3
 
 
-						%=== source ===%</Solution>
-					</Exercice>
-					<Exercice>
-						<name>التمرين 001</name>
-						<Image></Image>
-						<Enonce>%Exercice 18
-	\begin{exercice}{}/
-						تتكون محقنة أسطوانية الشكل من مكبس شعاعه
-						$R=2cm$
-						وتحتوي على غاز محصور بداخلها ضغطه
-						$0,5bar$.
-						\begin{enumerate}
-						\item بواسطة تبيانة بسيطة جدا حدد اتجاه القوة الضاغطة المطبقة من طرف الغاز على المكبس.
-						\item أحسب شدة هذه القوة.
-						\end{enumerate}
-						\end{exercice}%=== source ===%</Enonce>
-						<Solution>%Solution 18
+					%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>4</N>
+					<name> تمرين 4</name>
+					<Image>images/Tc/p2/e4.png</Image>
+					<Enonce>%Exercice 4
+\begin{exercice}{}/
+					\textbf{يمثل الشكل جانبه خيطا 
+					$\bm{(f)}$
+					ثبت طرفه العلوي بحامل 
+					$\bm{(k)}$
+					وعلق في طرفه الآخر جسم صلب 
+					$\bm{(c)}$
+					كتلته
+					$\bm{m}$،
+					نهمل كتلة الخيط.
+					\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+					\begin{minipage}[c]{0.69\linewidth}
+					\item أجرد القوى المطبقة على المجموعة 
+					$\bm{{\{(c)\}}}$.\\
+					هل هذه القوى داخلية أم خارجية؟
+					\item أجرد القوى المطبقة على المجموعة 
+					$\bm{{\{(f)\}}}$.\\
+					هل هذه القوى داخلية أم خارجية؟
+					\item أجرد القوى المطبقة على المجموعة 
+					$\bm{{\{(c)+(f)\}}}$
+					،ثم صنفها.
+					\end{minipage}
+					\begin{minipage}[c]{0.29\linewidth}
+					\definecolor{cffffff}{RGB}{255,255,255}
+\definecolor{cffc000}{RGB}{255,192,0}
+\begin{flushleft}
+\begin{adjustbox}{width=0.7\linewidth}
+\fbox{\begin{tikzpicture}[y=0.80pt, x=0.80pt, yscale=-1.000000, xscale=1.000000, inner sep=0pt, outer sep=0pt]
+\begin{scope}[shift={(-564.25,-1231.0)}]
+  \path[shift={(565.25,1232.0)},draw=black,fill=cffffff] (0.0000,0.0000) --
+    (205.5000,0.0000) -- (205.5000,297.0000) -- (0.0000,297.0000) --
+    (0.0000,0.0000) -- cycle;
+  \path[shift={(673.75,1247.5)},draw=black,fill=black] (0.0000,0.0000) --
+    (71.0000,0.0000) -- (71.0000,5.0000) -- (0.0000,5.0000) -- (0.0000,0.0000) --
+    cycle;
+  \path[cm={{0.01,1.0,-1.0,0.01,(709.3,1252.5)}},draw=black,line width=2.133pt]
+    (0.0000,0.0000) -- (194.0000,0.0000);
+  \begin{scope}[shift={(584.45,1358.77)}]
+    \path (38,13) node[] (text13) {\Large $\bm{(f)}$};
+  \end{scope}
+  \begin{scope}[shift={(584.45,1466.27)}]
+    \path (38,13) node[] (text13) {\Large $\bm{(c)}$};
+  \end{scope}
+  \begin{scope}[cm={{1.0,0.0,-0.0,1.0,(660.0,1372.4)}}]
+    \path[draw=black,line width=2.133pt] (0.0000,0.0000) -- (42.5000,0.0000);
+    \path[draw=black,fill=black,line cap=round,line width=0.800pt] (49.7000,0.0000)
+      -- (41.2000,-4.9000) .. controls (42.1000,-3.5000) and (42.5000,-1.8000) ..
+      (42.5000,0.0000) .. controls (42.5000,1.8000) and (42.1000,3.5000) ..
+      (41.2000,4.9000) -- (49.7000,0.0000);
+  \end{scope}
+  \begin{scope}[cm={{1.0,-0.02,0.02,1.0,(660.0,1479.9)}}]
+    \path[draw=black,line width=2.133pt] (0.0000,0.0000) -- (11.5000,0.0000);
+    \path[draw=black,fill=black,line cap=round,line width=0.800pt] (18.7000,0.0000)
+      -- (10.2000,-4.9000) .. controls (11.1000,-3.5000) and (11.5000,-1.8000) ..
+      (11.5000,0.0000) .. controls (11.5000,1.8000) and (11.1000,3.5000) ..
+      (10.2000,4.9000) -- (18.7000,0.0000);
+  \end{scope}
+  \begin{scope}[shift={(584.45,1269.04)}]
+    \path (38,13) node[] (text13) {\Large $\bm{(k)}$};
+  \end{scope}
+  \path[cm={{1.0,-0.0,0.0,1.0,(660.0,1282.7)}},draw=black,line width=2.133pt]
+    (0.0000,0.0000) -- (20.7000,0.0000);
+  \begin{scope}[cm={{0.37,-0.93,0.93,0.37,(681.0,1281.5)}}]
+    \path[draw=black,line width=2.133pt] (0.0000,0.0000) -- (24.1000,0.0000);
+    \path[draw=black,fill=black,line cap=round,line width=0.800pt] (31.3000,0.0000)
+      -- (22.8000,-4.9000) .. controls (23.6000,-3.5000) and (24.1000,-1.8000) ..
+      (24.1000,0.0000) .. controls (24.1000,1.8000) and (23.6000,3.5000) ..
+      (22.8000,4.9000) -- (31.3000,0.0000);
+  \end{scope}
+  \path[shift={(683.0,1444.0)},draw=black,fill=cffc000,line width=1.600pt]
+    (0.0000,0.0000) -- (57.0000,0.0000) -- (57.0000,57.0000) -- (0.0000,57.0000)
+    -- (0.0000,0.0000) -- cycle;
+  \path[shift={(708.39,1469.17)},draw=black,fill=cffffff,line width=1.600pt]
+    (0.0000,2.8000) .. controls (0.0000,1.3000) and (1.3000,0.0000) ..
+    (2.8000,0.0000) .. controls (4.4000,0.0000) and (5.7000,1.3000) ..
+    (5.7000,2.8000) .. controls (5.7000,4.4000) and (4.4000,5.7000) ..
+    (2.8000,5.7000) .. controls (1.3000,5.7000) and (0.0000,4.4000) ..
+    (0.0000,2.8000) -- cycle;
+\end{scope}
+\end{tikzpicture}}
+\end{adjustbox}
+\end{flushleft}
+					\end{minipage}
+					\end{enumerate}}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 4
 
 
-						%=== source ===%</Solution>
-					</Exercice>
-					<Exercice>
-						<name>التمرين 001</name>
-						<Image></Image>
-						<Enonce>%Exercice 19
-	\begin{exercice}{}/
-						نعتبر عارضة
-						$OA$
-						  كتلتها
-						$M=0,5kg$
-							و طولها
-						$L=1m$
-							قابلة للدوران حول محور
-						$\vartriangle$   
-						أفقي يمر من طرفها 
-						$O$
-						ومرتبطة بالطرف الحر
-						 $A$ 
-						لنابض
-						كتلته مهملة و طوله الأصلي 
-						$I_0$
-						 تكون العارضة زاوية
-						 $\alpha$
-						  مع الخط المنظمي.
-						\begin{center}
-						\fbox{\includegraphics[width=0.5\linewidth]{images/p2_8.png}}\\
-						\end{center}
-						\begin{enumerate}
-						\item 
-						نعتبر المجموعة
-						 \{نابض ، عارضة OA \} . 
-						 أجرد القوى المطبقة على المجموعة، ثم صنفها إلى قوى داخلية و خارجية. ماذا يمكن أن نستنتج
-						للقوى الداخلية.
-						\item صنف القوى الخارجية إلى قوى التماس و قوى عن بعد ثم إلى قوى التماس
-						المموضعة و قوى التماس الموزعة.
-						\item مثل على التبيانة متجهة وزن العارضة و متجهة القوة المطبقة من طرف العارضة
-						على النابض إذا علمت أن شدتها
-						$6N$.
-						السلم
-						${4N\longleftrightarrow 1cm}$.
-						\item نعتبر المجموعة المدروسة العارضة . أجرد القوى المطبقة على العارضة. مثل على
-						تبيانة متجهة القوة المطبقة من طرف النابض على العارضة، غذا علمت أن شدتها
-						$6N$.
-						استعمل نفس السلم السابق.
-						\end{enumerate}
-						\end{exercice}%=== source ===%</Enonce>
-						<Solution>%Solution 19
+					%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>5</N>
+					<name> تمرين 5</name>
+					<Image>images/Tc/p2/e5.png</Image>
+					<Enonce>%Exercice 5
+\begin{exercice}{}/
+					\textbf{\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+					\item أحسب 
+					$\bm{F}$
+					شدة القوة الضاغطة المطبقة من طرف الهواء على واجهة نافذة طولها 
+					$\bm{L=1,20\ m}$
+					وعرضها 
+					$\bm{l=1,0\ m}$
+					علما أن الضغط الجوي هو :
+					$\bm{1\ atm}$.
+					\item أوجد 
+					$\bm{m}$
+					كتلة جسم صلب شدة وزنه
+					$\bm{P=F}$
+					\item إشرح لماذا لا ينكسر زجاج النافذة تحت تأثير الهواء؟
+					\end{enumerate}}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 5
 
 
-						%=== source ===%</Solution>
-					</Exercice>
-					<Exercice>
-						<name>التمرين 001</name>
-						<Image></Image>
-						<Enonce>%Exercice 20
-	\begin{exercice}{}/
-						لاحظ الشكل التالي، حيث الكرية
-						$A$
-						مغمورة في الماء. إملأ الجدول التالي بوضع علامة
-						$(\times)$
-						في الخانة المناسبة:
-						\begin{minipage}[c]{0.74\linewidth}
-						\begin{center}
-						 \begin{tabular}{|c|c|c|c|c|c|c|}
-						\hline 
-						 &amp; نعم &amp; لا &amp; عن بعد &amp; بالتماس &amp; تأثير مموضع &amp; تأثير موزع \\ 
-						\hline 
-						يؤثر الخيط على $A$ &amp;   &amp;   &amp;   &amp;   &amp;  &amp;  \\ 
-						\hline 
-						يؤثر الأرض على  $A$ &amp;   &amp;   &amp;   &amp;   &amp;   &amp;   \\ 
-						\hline 
-						يؤثر الماء على  $A$ &amp;   &amp;   &amp;   &amp;   &amp;   &amp;   \\ 
-						\hline 
-						يؤثر الحامل على الخيط &amp;   &amp;   &amp;   &amp;   &amp;   &amp;   \\ 
-						\hline 
-						يؤثر  $A$ على الخيط &amp;   &amp;   &amp;   &amp;   &amp;   &amp;   \\ 
-						\hline 
-						يؤثر الحامل على  $A$ &amp;   &amp;   &amp;   &amp;   &amp;  &amp;   \\ 
-						\hline 
-						\end{tabular}
-						 \end{center} 
-						\end{minipage}
-						\begin{minipage}[c]{0.24\linewidth}
-						\begin{center}
-						\fbox{\includegraphics[width=0.6\linewidth]{images/p2_9.png}}\\
-						\end{center}
-						\end{minipage}
-						\end{exercice}%=== source ===%</Enonce>
-						<Solution>%Solution 20
+					%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>6</N>
+					<name> تمرين 6</name>
+					<Image>images/Tc/p2/e6.png</Image>
+					<Enonce>%Exercice 6
+\begin{exercice}{}/
+					\textbf{صف التأثيرات الميكانيكية التالية بوضع العلامة 
+					$\bm{\times}$
+					في الخانة المناسبة :
+					\begin{center}
+					\begin{tabularx}{\linewidth}{|X|>{\centering\arraybackslash}p{0.25\linewidth}|>{\centering\arraybackslash}p{0.25\linewidth}|}
+					\hline 
+					التأثير الميكانيكي &amp; مفعول سكوني &amp; مفعول تحريكي \\ 
+					\hline 
+					تأثير حمولة على نوابض شاحنة متوقفة &amp;  &amp;  \\ 
+					\hline 
+					تأثير غازات الإحتراق على مكبس محرك &amp;  &amp;  \\ 
+					\hline 
+					تأثير الماء على جدار سد &amp;  &amp;  \\ 
+					\hline 
+					تأثير مغنطيس على كرية فولاذية تمر بالقرب منه &amp;  &amp;  \\ 
+					\hline 
+					تأثير الحبال على جسر معلق &amp;  &amp;  \\ 
+					\hline 
+					تأثير الأرض على كرة قذفت في الهواء &amp;  &amp;  \\ 
+					\hline 
+					تأثير الريح على ناعورة &amp;  &amp;  \\ 
+					\hline 
+					تأثير الأرض على القمر &amp;  &amp;  \\ 
+					\hline 
+					تأثير رياضي على الزانة عند لحظة القفز &amp;  &amp;  \\ 
+					\hline 
+					تأثير الهواء على شراع زورق &amp;  &amp;  \\ 
+					\hline 
+					\end{tabularx} 
+					\end{center}}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 6
+
+\includegraphics[width=\linewidth]{images/p2/s1.png}
+					
+					%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>7</N>
+					<name> تمرين 7</name>
+					<Image>images/Tc/p2/e7.png</Image>
+					<Enonce>%Exercice 7
+\begin{exercice}{}/
+					\textbf{
+					صنف تأثيرات التماس التالية بوضع العلامة 
+					$\bm{\times}$
+					في الخانة المناسبة :
+					\begin{center}
+					\begin{tabularx}{\linewidth}{|X|>{\centering\arraybackslash}p{0.25\linewidth}|>{\centering\arraybackslash}p{0.25\linewidth}|}
+					\hline 
+					التأثير الميكانيكي &amp; مموضع &amp; موزع \\ 
+					\hline 
+					تأثير الهواء على شراع زورق &amp;    &amp;    \\ 
+					\hline 
+					تأثير سيارة على مقطورة &amp;    &amp;    \\ 
+					\hline 
+					تأثير الماء على جدار سد &amp;    &amp;    \\ 
+					\hline 
+					تأثير الهواء على مظلة &amp;    &amp;    \\ 
+					\hline 
+					تأثير حبل على جسر معلق &amp;    &amp;    \\ 
+					\hline 
+					تأثير غازات الإحتراق على مكبس محرك &amp;    &amp;    \\ 
+					\hline 
+					تأثير مسمار على لوح خشبي &amp;    &amp;    \\ 
+					\hline 
+					\end{tabularx} 
+					\end{center}}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 7
+
+\includegraphics[width=\linewidth]{images/p2/s2.png}
+					
+					%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>8</N>
+					<name> تمرين 8</name>
+					<Image>images/Tc/p2/e8.png</Image>
+					<Enonce>%Exercice 8
+\begin{exercice}{}/
+					\textbf{فيما يلي تمثيل لمتجهات قوى :
+					\begin{center}
+					\definecolor{cffffff}{RGB}{255,255,255}
+\definecolor{c595959}{RGB}{89,89,89}
+\definecolor{c3498db}{RGB}{52,152,219}
+\begin{adjustbox}{width=0.5\linewidth}
+\fbox{\begin{tikzpicture}[y=0.80pt, x=0.80pt, yscale=-1.000000, xscale=1.000000, inner sep=0pt, outer sep=0pt]
+\begin{scope}[shift={(-381.0,-1655.0)}]
+  \path[shift={(382.0,1656.0)},draw=black,fill=cffffff] (0.0000,0.0000) --
+    (460.4000,0.0000) -- (460.4000,120.0000) -- (0.0000,120.0000) --
+    (0.0000,0.0000) -- cycle;
+  \begin{scope}[shift={(384.0,1659.0)}]
+    \path[fill=cffffff] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle;
+    \path[draw=c595959] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle(0.0000,38.0000) --
+      (114.0000,38.0000)(0.0000,76.0000) -- (114.0000,76.0000)(38.0000,0.0000) --
+      (38.0000,114.0000)(76.0000,0.0000) -- (76.0000,114.0000);
+  \end{scope}
+  \begin{scope}[shift={(497.84,1659.0)}]
+    \path[fill=cffffff] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle;
+    \path[draw=c595959] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle(0.0000,38.0000) --
+      (114.0000,38.0000)(0.0000,76.0000) -- (114.0000,76.0000)(38.0000,0.0000) --
+      (38.0000,114.0000)(76.0000,0.0000) -- (76.0000,114.0000);
+  \end{scope}
+  \begin{scope}[shift={(610.92,1659.0)}]
+    \path[fill=cffffff] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle;
+    \path[draw=c595959] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle(0.0000,38.0000) --
+      (114.0000,38.0000)(0.0000,76.0000) -- (114.0000,76.0000)(38.0000,0.0000) --
+      (38.0000,114.0000)(76.0000,0.0000) -- (76.0000,114.0000);
+  \end{scope}
+  \begin{scope}[shift={(725.0,1659.0)}]
+    \path[fill=cffffff] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle;
+    \path[draw=c595959] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle(0.0000,38.0000) --
+      (114.0000,38.0000)(0.0000,76.0000) -- (114.0000,76.0000)(38.0000,0.0000) --
+      (38.0000,114.0000)(76.0000,0.0000) -- (76.0000,114.0000);
+  \end{scope}
+  \begin{scope}[shift={(765.46,1704.59)}]
+    \path (17,12) node[] (text31) {$\bm{{\overrightarrow{F_1}}}$};
+  \end{scope}
+  \begin{scope}[shift={(763.0,1735.0)}]
+    \path[draw=black,line width=1.600pt] (0.0000,0.0000) -- (36.0000,0.0000);
+    \path[draw=black,line join=round,line cap=round,line width=1.600pt]
+      (38.0000,0.0000) .. controls (33.3000,0.0000) and (29.5000,-1.9000) ..
+      (29.5000,-4.2000)(38.0000,0.0000) .. controls (33.3000,0.0000) and
+      (29.5000,1.9000) .. (29.5000,4.2000);
+  \end{scope}
+  \begin{scope}[shift={(689.38,1704.59)}]
+    \path (17,12) node[] (text31) {$\bm{{\overrightarrow{F_2}}}$};
+  \end{scope}
+  \begin{scope}[shift={(687.0,1735.0)}]
+    \path[draw=black,line width=1.600pt] (0.0000,0.0000) -- (34.9000,0.0000);
+    \path[draw=black,line join=round,line cap=round,line width=1.600pt]
+      (36.9000,0.0000) .. controls (32.2000,0.0000) and (28.4000,-1.9000) ..
+      (28.4000,-4.2000)(36.9000,0.0000) .. controls (32.2000,0.0000) and
+      (28.4000,1.9000) .. (28.4000,4.2000);
+  \end{scope}
+  \begin{scope}[shift={(615.38,1704.59)}]
+    \path (17,12) node[] (text31) {$\bm{{\overrightarrow{F_3}}}$};
+  \end{scope}
+  \begin{scope}[shift={(611.0,1735.0)}]
+    \path[draw=black,line width=1.600pt] (2.0000,0.0000) -- (38.9000,0.0000);
+    \path[draw=black,line join=round,line cap=round,line width=1.600pt]
+      (0.0000,0.0000) .. controls (4.7000,0.0000) and (8.5000,1.9000) ..
+      (8.5000,4.2000)(0.0000,0.0000) .. controls (4.7000,0.0000) and
+      (8.5000,-1.9000) .. (8.5000,-4.2000);
+  \end{scope}
+  \begin{scope}[shift={(498.3,1703.59)}]
+    \path (17,12) node[] (text31) {$\bm{{\overrightarrow{F_4}}}$};
+  \end{scope}
+  \begin{scope}[cm={{0.0,1.0,-1.0,0.0,(535.5,1697.0)}}]
+    \path[draw=black,line width=1.600pt] (0.0000,0.0000) -- (36.0000,0.0000);
+    \path[draw=black,line join=round,line cap=round,line width=1.600pt]
+      (38.0000,0.0000) .. controls (33.3000,0.0000) and (29.5000,-1.9000) ..
+      (29.5000,-4.2000)(38.0000,0.0000) .. controls (33.3000,0.0000) and
+      (29.5000,1.9000) .. (29.5000,4.2000);
+  \end{scope}
+  \begin{scope}[shift={(422.3,1703.59)}]
+    \path (17,12) node[] (text31) {$\bm{{\overrightarrow{F_5}}}$};
+  \end{scope}
+  \begin{scope}[cm={{0.0,-1.0,1.0,0.0,(459.5,1735.0)}}]
+    \path[draw=black,line width=1.600pt] (0.0000,0.0000) -- (36.0000,0.0000);
+    \path[draw=black,line join=round,line cap=round,line width=1.600pt]
+      (38.0000,0.0000) .. controls (33.3000,0.0000) and (29.5000,-1.9000) ..
+      (29.5000,-4.2000)(38.0000,0.0000) .. controls (33.3000,0.0000) and
+      (29.5000,1.9000) .. (29.5000,4.2000);
+  \end{scope}
+\end{scope}
+\end{tikzpicture}}
+\end{adjustbox}
+					\end{center}
+					\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+					\item ماهي المميزة المشتركة بين هذه المتجهات؟
+					\item ماهي المميزة المشتركة بين المتجهات الثلاث الأولى والمتجهتين الأخيرتين؟
+					\end{enumerate}}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 8
+
+\includegraphics[width=\linewidth]{images/p2/s3.png}
+					
+					%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>9</N>
+					<name> تمرين 9</name>
+					<Image>images/Tc/p2/e9.png</Image>
+					<Enonce>%Exercice 9
+\begin{exercice}{}/
+					\textbf{يمثل المبيان التالي متجهة قوة 
+					$\bm{\overrightarrow{F}}$
+					مثلت في المعلم 
+					$\bm{(O,\overrightarrow{i},\overrightarrow{j})}$.
+					شدة القوة بالنيوتن 
+					$\bm{(N)}$.
+					\begin{center}
+					\definecolor{cffffff}{RGB}{255,255,255}
+\definecolor{c595959}{RGB}{89,89,89}
+\definecolor{c3498db}{RGB}{52,152,219}
+\definecolor{cff0000}{RGB}{255,0,0}
+\begin{adjustbox}{width=0.4\linewidth}
+\fbox{\begin{tikzpicture}[y=0.80pt, x=0.80pt, yscale=-1.000000, xscale=1.000000, inner sep=0pt, outer sep=0pt]
+\begin{scope}[shift={(-380.0,-1855.0)}]
+  \path[shift={(381.0,1856.0)},draw=black,fill=cffffff] (0.0000,0.0000) --
+    (346.0000,0.0000) -- (346.0000,310.0000) -- (0.0000,310.0000) --
+    (0.0000,0.0000) -- cycle;
+  \begin{scope}[shift={(383.7,1935.0)}]
+    \path[fill=cffffff] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle;
+    \path[draw=c595959] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle(0.0000,38.0000) --
+      (114.0000,38.0000)(0.0000,76.0000) -- (114.0000,76.0000)(38.0000,0.0000) --
+      (38.0000,114.0000)(76.0000,0.0000) -- (76.0000,114.0000);
+  \end{scope}
+  \begin{scope}[shift={(497.54,1935.0)}]
+    \path[fill=cffffff] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle;
+    \path[draw=c595959] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle(0.0000,38.0000) --
+      (114.0000,38.0000)(0.0000,76.0000) -- (114.0000,76.0000)(38.0000,0.0000) --
+      (38.0000,114.0000)(76.0000,0.0000) -- (76.0000,114.0000);
+  \end{scope}
+  \begin{scope}[shift={(610.62,1935.0)}]
+    \path[fill=cffffff] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle;
+    \path[draw=c595959] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle(0.0000,38.0000) --
+      (114.0000,38.0000)(0.0000,76.0000) -- (114.0000,76.0000)(38.0000,0.0000) --
+      (38.0000,114.0000)(76.0000,0.0000) -- (76.0000,114.0000);
+  \end{scope}
+  \begin{scope}[shift={(383.7,2049.0)}]
+    \path[fill=cffffff] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle;
+    \path[draw=c595959] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle(0.0000,38.0000) --
+      (114.0000,38.0000)(0.0000,76.0000) -- (114.0000,76.0000)(38.0000,0.0000) --
+      (38.0000,114.0000)(76.0000,0.0000) -- (76.0000,114.0000);
+  \end{scope}
+  \begin{scope}[shift={(497.54,2049.0)}]
+    \path[fill=cffffff] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle;
+    \path[draw=c595959] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle(0.0000,38.0000) --
+      (114.0000,38.0000)(0.0000,76.0000) -- (114.0000,76.0000)(38.0000,0.0000) --
+      (38.0000,114.0000)(76.0000,0.0000) -- (76.0000,114.0000);
+  \end{scope}
+  \begin{scope}[shift={(610.62,2049.0)}]
+    \path[fill=cffffff] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle;
+    \path[draw=c595959] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle(0.0000,38.0000) --
+      (114.0000,38.0000)(0.0000,76.0000) -- (114.0000,76.0000)(38.0000,0.0000) --
+      (38.0000,114.0000)(76.0000,0.0000) -- (76.0000,114.0000);
+  \end{scope}
+  \begin{scope}[shift={(384.0,1859.0)}]
+    \path[fill=cffffff] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle;
+    \path[draw=c595959] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle(0.0000,38.0000) --
+      (114.0000,38.0000)(0.0000,76.0000) -- (114.0000,76.0000)(38.0000,0.0000) --
+      (38.0000,114.0000)(76.0000,0.0000) -- (76.0000,114.0000);
+  \end{scope}
+  \begin{scope}[shift={(497.84,1859.0)}]
+    \path[fill=cffffff] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle;
+    \path[draw=c595959] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle(0.0000,38.0000) --
+      (114.0000,38.0000)(0.0000,76.0000) -- (114.0000,76.0000)(38.0000,0.0000) --
+      (38.0000,114.0000)(76.0000,0.0000) -- (76.0000,114.0000);
+  \end{scope}
+  \begin{scope}[shift={(610.92,1859.0)}]
+    \path[fill=cffffff] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle;
+    \path[draw=c595959] (0.0000,0.0000) -- (114.0000,0.0000) -- (114.0000,114.0000)
+      -- (0.0000,114.0000) -- (0.0000,0.0000) -- cycle(0.0000,38.0000) --
+      (114.0000,38.0000)(0.0000,76.0000) -- (114.0000,76.0000)(38.0000,0.0000) --
+      (38.0000,114.0000)(76.0000,0.0000) -- (76.0000,114.0000);
+  \end{scope}
+  \begin{scope}[shift={(425.0,2126.0)}]
+    \path[draw=black,line width=2.133pt] (0.0000,0.0000) -- (257.3000,0.0000);
+    \path[draw=black,line join=round,line cap=round,line width=2.133pt]
+      (260.0000,0.0000) .. controls (254.6000,0.0000) and (250.2000,-2.2000) ..
+      (250.2000,-4.9000)(260.0000,0.0000) .. controls (254.6000,0.0000) and
+      (250.2000,2.2000) .. (250.2000,4.9000);
+  \end{scope}
+  \begin{scope}[shift={(650.84,2133.19)}]
+    \path (17,12) node[] (text61) { $\bm{x}$};
+  \end{scope}
+  \begin{scope}[cm={{0.8,0.61,-0.61,0.8,(461.0,1973.0)}}]
+    \path[draw=black,line width=2.133pt] (0.0000,0.0000) -- (185.4000,0.0000);
+    \path[draw=black,line join=round,line cap=round,line width=2.133pt]
+      (188.1000,0.0000) .. controls (182.7000,0.0000) and (178.3000,-2.2000) ..
+      (178.3000,-4.9000)(188.1000,0.0000) .. controls (182.7000,0.0000) and
+      (178.3000,2.2000) .. (178.3000,4.9000);
+  \end{scope}
+  \begin{scope}[shift={(424.46,1904.0)}]
+    \path (17,12) node[] (text61) { $\bm{y}$};
+  \end{scope}
+  \begin{scope}[cm={{0.0,-1.0,1.0,0.0,(423.0,2126.0)}}]
+    \path[draw=black,line width=2.133pt] (0.0000,0.0000) -- (224.3000,0.0000);
+    \path[draw=black,line join=round,line cap=round,line width=2.133pt]
+      (227.0000,0.0000) .. controls (221.6000,0.0000) and (217.2000,-2.2000) ..
+      (217.2000,-4.9000)(227.0000,0.0000) .. controls (221.6000,0.0000) and
+      (217.2000,2.2000) .. (217.2000,4.9000);
+  \end{scope}
+  \begin{scope}[shift={(512.73,2037.0)}]
+    \path (17,12) node[] (text61) { $\bm{\overrightarrow{F}}$};
+  \end{scope}
+  \begin{scope}[shift={(385.7,2094.59)}]
+    \path (17,12) node[] (text61) { $\bm{\overrightarrow{j}}$};
+  \end{scope}
+  \begin{scope}[shift={(424.16,2133.19)}]
+    \path (17,12) node[] (text61) { $\bm{\overrightarrow{i}}$};
+  \end{scope}
+  \begin{scope}[shift={(423.0,2126.0)}]
+    \path[draw=cff0000,line width=2.133pt] (0.0000,0.0000) -- (35.3000,0.0000);
+    \path[draw=cff0000,line join=round,line cap=round,line width=2.133pt]
+      (38.0000,0.0000) .. controls (32.6000,0.0000) and (28.2000,-2.2000) ..
+      (28.2000,-4.9000)(38.0000,0.0000) .. controls (32.6000,0.0000) and
+      (28.2000,2.2000) .. (28.2000,4.9000);
+  \end{scope}
+  \begin{scope}[cm={{0.0,-1.0,1.0,0.0,(423.0,2126.0)}}]
+    \path[draw=cff0000,line width=2.133pt] (0.0000,0.0000) -- (37.3000,0.0000);
+    \path[draw=cff0000,line join=round,line cap=round,line width=2.133pt]
+      (40.0000,0.0000) .. controls (34.6000,0.0000) and (30.2000,-2.2000) ..
+      (30.2000,-4.9000)(40.0000,0.0000) .. controls (34.6000,0.0000) and
+      (30.2000,2.2000) .. (30.2000,4.9000);
+  \end{scope}
+  \begin{scope}[shift={(512.73,1980.59)}]
+    \path (17,12) node[] (text61) {$\bm{\alpha}$};
+  \end{scope}
+  \path[cm={{0.8,0.61,-0.61,0.8,(460.6,1973.0)}},draw=black,line width=1.333pt]
+    (54.4000,0.0000) .. controls (54.4000,-11.9000) and (50.5000,-23.5000) ..
+    (43.3000,-33.0000)(5.7000,0.0000) -- (68.4000,0.0000) -- (5.7000,0.0000) --
+    cycle(4.8000,-3.6000) -- (54.4000,-41.5000) -- (4.8000,-3.6000) -- cycle;
+\end{scope}
+\end{tikzpicture}}
+\end{adjustbox}
+					\end{center}
+					\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+					\item حدد الإحداثيتين 
+					$\bm{F_x}$
+					و
+					$\bm{F_y}$
+					لمتجهة القوة
+					$\bm{\overrightarrow{F}}$،
+					 ثم استنتج 
+					 $\bm{F}$
+					 شدة هذه القوة.
+					 \item عبر عن 
+					 $\bm{sin(\alpha)}$
+					 و
+					 $\bm{cos(\alpha)}$
+					 و
+					 $\bm{tan(\alpha)}$
+					 بدلالة 
+					 $\bm{F_x}$
+					و
+					$\bm{F_y}$
+					 و
+					 $\bm{F}$
+					واحسب قيمتها.
+					\item مثل في نفس المعلم متجهة القوة 
+					$\bm{{\overrightarrow{F'}=2\overrightarrow{i}+\overrightarrow{j}}}$.
+					\end{enumerate}}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 9
+
+\includegraphics[width=\linewidth]{images/p2/s4_1.png}
+					\includegraphics[width=\linewidth]{images/p2/s4_2.png}
+					\includegraphics[width=\linewidth]{images/p2/s4_3.png}
+					\includegraphics[width=\linewidth]{images/p2/s4_4.png}
+					\includegraphics[width=\linewidth]{images/p2/s4_5.png}
+					
+					%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>10</N>
+					<name> تمرين 10</name>
+					<Image>images/Tc/p2/e10.png</Image>
+					<Enonce>%Exercice 10
+\begin{exercice}{}/
+					\textbf{\begin{minipage}[c]{0.7\linewidth}
+					نعلق كرة بطرف خيط ثم نغمرها في الماء.
+					\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+					\item أجرد جميع التأثيرات الميكانيكية المطبقة على الكرة.
+					\item أنقل الشكل، ومثل بدون سلم متجهات القوى المقرونة بهذه التأثيرات.
+					\end{enumerate}
+					\end{minipage}
+					\begin{minipage}[c]{0.29\linewidth}
+					\definecolor{cffffff}{RGB}{255,255,255}
+\definecolor{c83b3e3}{RGB}{131,179,227}
+\definecolor{cffaf00}{RGB}{255,175,0}
+\begin{flushleft}
+\begin{adjustbox}{width=0.4\linewidth}
+\fbox{\begin{tikzpicture}[y=0.80pt, x=0.80pt, yscale=-1.000000, xscale=1.000000, inner sep=0pt, outer sep=0pt]
+\begin{scope}[shift={(-524.0,-2490.0)}]
+  \path[shift={(525.0,2491.0)},draw=black,fill=cffffff] (0.0000,0.0000) --
+    (152.0000,0.0000) -- (152.0000,218.5000) -- (0.0000,218.5000) --
+    (0.0000,0.0000) -- cycle;
+  \begin{scope}[shift={(550.25,2588.0)}]
+    \path[shift={(7.69,39.0)},fill=c83b3e3] (0.0000,0.0000) -- (91.7000,0.0000) --
+      (89.7000,3.0000) -- (89.7000,66.0000) .. controls (89.7000,71.0000) and
+      (85.8000,75.0000) .. (80.8000,75.0000) -- (9.0000,75.0000) .. controls
+      (4.0000,75.0000) and (0.0000,71.0000) .. (0.0000,66.0000) -- (0.0000,9.0000)
+      -- (-8.0000,4.0000) -- (0.0000,0.0000) -- cycle;
+    \path[shift={(7.69,0)},draw=black,line width=1.867pt] (0.0000,0.0000) --
+      (91.7000,0.0000) -- (89.7000,3.0000) -- (89.7000,105.0000) .. controls
+      (89.7000,110.0000) and (85.8000,114.0000) .. (80.8000,114.0000) --
+      (9.0000,114.0000) .. controls (4.0000,114.0000) and (0.0000,110.0000) ..
+      (0.0000,105.0000) -- (0.0000,9.0000) -- (-8.0000,4.0000) -- (0.0000,0.0000) --
+      cycle;
+  \end{scope}
+  \path[shift={(567.25,2501.0)},draw=black,fill=black] (0.0000,0.0000) --
+    (71.0000,0.0000) -- (71.0000,5.0000) -- (0.0000,5.0000) -- (0.0000,0.0000) --
+    cycle;
+  \path[cm={{0.0,1.0,-1.0,0.0,(602.8,2506.0)}},draw=black,line width=2.133pt]
+    (0.0000,0.0000) -- (128.3000,0.0000);
+  \path[shift={(579.88,2634.25)},draw=black,fill=cffaf00,line width=2.133pt]
+    (0.0000,22.9000) .. controls (0.0000,10.2000) and (10.2000,0.0000) ..
+    (22.9000,0.0000) .. controls (35.5000,0.0000) and (45.8000,10.2000) ..
+    (45.8000,22.9000) .. controls (45.8000,35.5000) and (35.5000,45.8000) ..
+    (22.9000,45.8000) .. controls (10.2000,45.8000) and (0.0000,35.5000) ..
+    (0.0000,22.9000) -- cycle;
+  \path[shift={(541.0,2615.0)},draw=cffffff,fill=cffffff] (0.0000,0.0000) --
+    (15.0000,0.0000) -- (15.0000,31.0000) -- (0.0000,31.0000) -- (0.0000,0.0000)
+    -- cycle;
+\end{scope}
+\end{tikzpicture}}
+\end{adjustbox}
+\end{flushleft}
+					\end{minipage}}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 10
+
+\includegraphics[width=\linewidth]{images/p2/s5.png}
+					
+					%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>11</N>
+					<name> تمرين 11</name>
+					<Image>images/Tc/p2/e11.png</Image>
+					<Enonce>%Exercice 11
+\begin{exercice}{}/
+					\textbf{وضعت كرتان 
+					$\bm{(S_1)}$
+					و
+					$\bm{(S_2)}$
+					بين جدرانين مستويين ورأسيين 
+					$\bm{AB}$
+					و
+					$\bm{CD}$،
+					بحيث يتحقق توازنهما. مركزا الكرتين 
+					$\bm{O_1}$
+					و
+					$\bm{O_2}$
+					والنقطة 
+					$\bm{A}$
+					تنتمي إلى نفس لمستقيم. نعتبر الإحتكاكات مهملة.
+					\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+					\begin{minipage}[c]{0.7\linewidth}
+					\item أجرد القوى المطبقة على كل من الكرتين، وصنفها في جدول الى قوى تماس وقوى عن بعد محددا مميزاتها التالية :
+					\begin{itemize}
+					\item نقطة التأثير.
+					\item خط التأثير.
+					\item المنحى.
+					\end{itemize}
+					\item أنقل الشكل، ومثل بدون سلم متجهات القوى المطبقة على كل من الكرتين.
+					\end{minipage}
+					\begin{minipage}[c]{0.29\linewidth}
+					\begin{center}
+					\fbox{\includegraphics[width=0.9\linewidth]{images/p2_4.png}}\\
+					\end{center}
+					\end{minipage}
+					\end{enumerate}}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 11
+
+\includegraphics[width=\linewidth]{images/p2/s6_1.png}
+					\includegraphics[width=\linewidth]{images/p2/s6_2.png}
+					\includegraphics[width=\linewidth]{images/p2/s6_3.png}
+					\includegraphics[width=\linewidth]{images/p2/s6_4.png}
+					\includegraphics[width=\linewidth]{images/p2/s6_5.png}
+					\includegraphics[width=\linewidth]{images/p2/s6_6.png}
+					
+					%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>12</N>
+					<name> تمرين 12</name>
+					<Image>images/Tc/p2/e12.png</Image>
+					<Enonce>%Exercice 12
+\begin{exercice}{}/
+					\textbf{نربط كرية حديدية بالطرف السفلي لخيط طرفه العلوي مثبت بحامل (حال 1 ممثلة بالشكل 1).\\
+					يوضع مغنطيس بالقرب من الكرية فينحرف الخيط (حالة 2 ممثلة بالشكل 2).
+					\begin{center}
+					\fbox{\includegraphics[width=0.5\linewidth]{images/p2_5.png}}\\
+					\end{center}
+					\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+					\item أجرد القوى المطبقة على الكرية في الحالة 1 ومثل بدون سلم متجهات القوى في الشكل 1.
+					\item أجرد القوى المطبقة على الكرية في الحالة 2 ومثل بدون سلم متجهات القوى في الشكل 2.
+					\end{enumerate}}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 12
+
+\includegraphics[width=\linewidth]{images/p2/s7.png}
+					
+					%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>13</N>
+					<name> تمرين 13</name>
+					<Image>images/Tc/p2/e13.png</Image>
+					<Enonce>%Exercice 13
+\begin{exercice}{}/
+					\textbf{وضع جسم صلب 
+					$\bm{(S)}$
+					كتلته 
+					$\bm{m=1\ kg}$
+					على سطح مستوي ومائل بالزاوية 
+					$\bm{\alpha=20^o}$
+					بالنسبة للمستوى الأفقي.\\
+					يلاحظ أن الجسم لا ينزلق على السطح ويبقى في حالة توازن.
+					\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+					\begin{minipage}[c]{0.59\linewidth}
+					\item أجرد القوى المطبقة على 
+					$\bm{(S)}$.
+					\item بتطبيق شرط توازن جسم صلب خاضع لقوتين بين أن التماس بين 
+					$\bm{(S)}$
+					والسطح يتم باحتكاك.
+					\item حدد شدة 
+					$\bm{{\overrightarrow{R}}}$
+					المقرونة بتأثير سطح التماس على 
+					$\bm{(S)}$
+					وقيمة زاوية الإحتكاك 
+					 $\bm{\varphi}$.
+					 \item استنتج شدة المركبتين المماسية 
+					 $\bm{{\overrightarrow{R}_T}}$
+					 والمنظمية
+					  $\bm{{\overrightarrow{R}_N}}$
+					 للقوة
+					  $\bm{{\overrightarrow{R}}}$.
+					\end{minipage}
+					\begin{minipage}[c]{0.39\linewidth}
+					\begin{flushleft}
+					\fbox{\includegraphics[width=0.9\linewidth]{images/p2_e8.png}}
+					\end{flushleft}
+					\end{minipage}
+					\end{enumerate}
+					نعطي : شدة الثقالة 
+					$\bm{g=10\ N.kg^{-1}}$.}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 13
+
+\includegraphics[width=\linewidth]{images/p2/s8_1.png}
+					\includegraphics[width=\linewidth]{images/p2/s8_2.png}
+					\includegraphics[width=\linewidth]{images/p2/s8_3.png}
+					\includegraphics[width=\linewidth]{images/p2/s8_4.png}
+					\includegraphics[width=\linewidth]{images/p2/s8_5.png}
+					\includegraphics[width=\linewidth]{images/p2/s8_6.png}
+					\includegraphics[width=\linewidth]{images/p2/s8_7.png}
+					
+					%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>14</N>
+					<name> تمرين 14</name>
+					<Image>images/Tc/p2/e14.png</Image>
+					<Enonce>%Exercice 14
+\begin{exercice}{}/
+					\textbf{على سطح مستوي وأفقي، وضع جسم صلب أسطواني الشكل كتلته 
+					$\bm{m=10\ kg}$
+					وقطر قاعدته 
+					$\bm{d=10\ cm}$.\\
+					\begin{minipage}[c]{0.69\linewidth}
+					\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+					\item أحسب شدة القوة الضاغطة التي يطبقها الجسم على سطح التماس.
+					\item مثل متجهة القوة الضاغطة باستعمال سلم مناسب.
+					\item أحسب قيمة الضعط الذي يطبقه الجسم على سطح التماس.
+					\end{enumerate}
+					نعطي : شدة الثقالة 
+					$\bm{g=10\ N.kg^{-1}}$.
+					\end{minipage}
+					\begin{minipage}[c]{0.29\linewidth}
+					\begin{center}
+					\fbox{\includegraphics[width=0.9\linewidth]{images/p2_e9.png}}
+					\end{center}
+					\end{minipage}}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 14
+
+\includegraphics[width=\linewidth]{images/p2/s9_1.png}
+					\includegraphics[width=\linewidth]{images/p2/s9_2.png}
+					\includegraphics[width=\linewidth]{images/p2/s9_3.png}
+					
+					%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>15</N>
+					<name> تمرين 15</name>
+					<Image>images/Tc/p2/e15.png</Image>
+					<Enonce>%Exercice 15
+\begin{exercice}{}/
+					\textbf{في سائل يتغير الضغط 
+					$\bm{p}$
+					بدلالة العمق 
+					$\bm{h}$
+					حسب العلاقة التالية : 
+					$\bm{p-p_0=\rho.g.h}$\\
+					حيث 
+					$\bm{p_0}$
+					الضغط الجوي، و
+					$\bm{\rho}$
+					الكتلة الحجمية للسائل.
+					\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+					\begin{minipage}[c]{0.59\linewidth}
+					\item باستغلال علاقة الضغط بالعمق، فسر لماذا ينبغي أن تكون قاعدة سد أعرض من جزئه العلوي.
+					\item أحسب قيمة ضغط الماء عند العمق 
+					$\bm{h=60\ m}$.
+					\item أحسب شدة القوة الضاغطة المطبقة على غطاء سِكْر له شكل قرص قطره 
+					$\bm{d=1,0\ m}$
+					عند العمق 
+					$\bm{h=60\ m}$.
+					\end{minipage}
+					\begin{minipage}[c]{0.4\linewidth}
+					\begin{flushleft}
+					\fbox{\includegraphics[width=0.8\linewidth]{images/p2_e10.png}}
+					\end{flushleft}
+					\end{minipage}
+					\end{enumerate}
+				نعطي :
+					\begin{itemize}
+					\item الضغط الجوي :
+					$\bm{p_0=1,0.10^5\ Pa}$.
+					\item شدة الثقالة : 
+					$\bm{g=10\ N.kg^{-1}}$.
+					\item الكتلة الحجمية للماء : 
+					$\bm{{\rho=1,0.10^3\ kg.m^{-3}}}$.
+					\end{itemize}}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 15
+
+\includegraphics[width=\linewidth]{images/p2/s10_1.png}
+					\includegraphics[width=\linewidth]{images/p2/s10_2.png}
+					\includegraphics[width=\linewidth]{images/p2/s10_3.png}
+					\includegraphics[width=\linewidth]{images/p2/s10_4.png}
+					
+					%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>16</N>
+					<name> تمرين 16</name>
+					<Image>images/Tc/p2/e16.png</Image>
+					<Enonce>%Exercice 16
+\begin{exercice}{}/
+					\textbf{نقرب عارضة مكهربة من كرية مكهربة فولاذية معلقة بواسطة خيط ثبت طرفه إلى حامل.
+					\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+					\begin{minipage}[c]{0.64\linewidth}
+					\item أجرد القوى المطبقة على الكرية.
+					\item صنف هذه القوى إلى قوى تماس و قوى عن بعد وقوى تماس مموضعة و قوى تماس موزعة.
+					\item هل هذه القوى داخلية أم خارجية؟
+					\item
+					 إذا اختيرت المجموعة \{الكرية ، الخيط\} . هل القوة التي يطبقها الخيط على الكرية داخلية أم خارجية؟ علل جوابك.
+					\end{minipage}
+					\begin{minipage}[c]{0.34\linewidth}
+					\begin{flushleft}
+					\fbox{\includegraphics[width=0.9\linewidth]{images/p2_6.png}}
+					\end{flushleft}
+					\end{minipage}
+					\end{enumerate}}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 16
 
 
-						%=== source ===%</Solution>
-					</Exercice>
-				</Exercices>
+					%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>17</N>
+					<name> تمرين 17</name>
+					<Image>images/Tc/p2/e17.png</Image>
+					<Enonce>%Exercice 17
+\begin{exercice}{}/
+					\textbf{نجر جسما 
+					$\bm{(S)}$
+					بواسطة خيط غير قابل للتمدد على سطح أفقي ثم على سطح مائل كما يبين الشكل جانبه. \\مثل بدون سلم القوى المطبقة على
+					$\bm{(S)}$
+					في الحالتين :
+					\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+					\begin{minipage}[c]{0.34\linewidth}
+					\item التماس يتم بدون احتكاك.
+					\item التماس يتم باحتكاك.
+					\end{minipage}
+					\begin{minipage}[c]{0.64\linewidth}
+					\begin{flushleft}
+					\fbox{\includegraphics[width=0.9\linewidth]{images/p2_7.png}}
+					\end{flushleft}
+					\end{minipage}
+					\end{enumerate}}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 17
+
+
+					%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>18</N>
+					<name> تمرين 18</name>
+					<Image>images/Tc/p2/e18.png</Image>
+					<Enonce>%Exercice 18
+\begin{exercice}{}/
+					\textbf{تتكون محقنة أسطوانية الشكل من مكبس شعاعه
+					$\bm{R=2\ cm}$
+					وتحتوي على غاز محصور بداخلها ضغطه
+					$\bm{0,5\ bar}$.
+					\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+					\item بواسطة تبيانة بسيطة جدا حدد اتجاه القوة الضاغطة المطبقة من طرف الغاز على المكبس.
+					\item أحسب شدة هذه القوة.
+					\end{enumerate}}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 18
+
+
+					%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>19</N>
+					<name> تمرين 19</name>
+					<Image>images/Tc/p2/e19.png</Image>
+					<Enonce>%Exercice 19
+\begin{exercice}{}/
+					\textbf{\textbf{نعتبر عارضة
+					$OA$
+					  كتلتها
+					$M=0,5kg$
+						و طولها
+					$L=1m$
+						قابلة للدوران حول محور
+					$\vartriangle$   
+					أفقي يمر من طرفها 
+					$O$
+					ومرتبطة بالطرف الحر
+					 $A$ 
+					لنابض
+					كتلته مهملة و طوله الأصلي 
+					$I_0$
+					 تكون العارضة زاوية
+					 $\alpha$
+					  مع الخط المنظمي.
+					\begin{center}
+					\fbox{\includegraphics[width=0.5\linewidth]{images/p2_8.png}}\\
+					\end{center}
+					\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+					\item 
+					نعتبر المجموعة
+					 \{نابض ، عارضة OA \} . 
+					 أجرد القوى المطبقة على المجموعة، ثم صنفها إلى قوى داخلية و خارجية. ماذا يمكن أن نستنتج
+					للقوى الداخلية.
+					\item صنف القوى الخارجية إلى قوى التماس و قوى عن بعد ثم إلى قوى التماس
+					المموضعة و قوى التماس الموزعة.
+					\item مثل على التبيانة متجهة وزن العارضة و متجهة القوة المطبقة من طرف العارضة
+					على النابض إذا علمت أن شدتها
+					$\bm{6\ N}$.
+					السلم
+					${4N\longleftrightarrow 1cm}$.
+					\item نعتبر المجموعة المدروسة العارضة . أجرد القوى المطبقة على العارضة. مثل على
+					تبيانة متجهة القوة المطبقة من طرف النابض على العارضة، غذا علمت أن شدتها
+					$6N$.
+					استعمل نفس السلم السابق.
+					\end{enumerate}}}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 19
+
+
+					%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>20</N>
+					<name> تمرين 20</name>
+					<Image>images/Tc/p2/e20.png</Image>
+					<Enonce>%Exercice 20
+\begin{exercice}{}/
+					\textbf{لاحظ الشكل التالي، حيث الكرية
+					$\bm{A}$
+					مغمورة في الماء. إملأ الجدول التالي بوضع علامة
+					$\bm{(\times)}$
+					في الخانة المناسبة:
+					\begin{minipage}[c]{0.74\linewidth}
+					\begin{center}
+					 \begin{tabular}{|c|c|c|c|c|c|c|}
+					\hline 
+					 &amp; نعم &amp; لا &amp; عن بعد &amp; بالتماس &amp; تأثير مموضع &amp; تأثير موزع \\ 
+					\hline 
+					يؤثر الخيط على $A$ &amp;   &amp;   &amp;   &amp;   &amp;  &amp;  \\ 
+					\hline 
+					يؤثر الأرض على  $A$ &amp;   &amp;   &amp;   &amp;   &amp;   &amp;   \\ 
+					\hline 
+					يؤثر الماء على  $A$ &amp;   &amp;   &amp;   &amp;   &amp;   &amp;   \\ 
+					\hline 
+					يؤثر الحامل على الخيط &amp;   &amp;   &amp;   &amp;   &amp;   &amp;   \\ 
+					\hline 
+					يؤثر  $A$ على الخيط &amp;   &amp;   &amp;   &amp;   &amp;   &amp;   \\ 
+					\hline 
+					يؤثر الحامل على  $A$ &amp;   &amp;   &amp;   &amp;   &amp;  &amp;   \\ 
+					\hline 
+					\end{tabular}
+					 \end{center} 
+					\end{minipage}
+					\begin{minipage}[c]{0.24\linewidth}
+					\begin{flushleft}
+					\fbox{\includegraphics[width=0.6\linewidth]{images/p2_9.png}}
+					\end{flushleft}
+					\end{minipage}}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 20
+
+
+					%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>21</N>
+					<name> تمرين 21</name>
+					<Image>images/Tc/p2/e21.png</Image>
+					<Enonce>%Exercice 21
+\begin{exercice}{}/
+					\textbf{يطبق غاز على جزء من إناء مساحته،
+					$\bm{S = 25\ cm^{2}}$
+					 قوة ضاغطة شدتها 
+					 $\bm{F = 375\ N}$. 
+					 \begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+					 \item أحسب قيمة الضغط المطبق من طرف الغاز.
+					 \item قارن هذه القيمة بقيمة الضغط الجوي.
+					 \item أي تغيير سيطرأ على قيمة لضغط عندما تتضاعف المساحة باعتبار شدة القوة تبقى ثابتة.
+					 \end{enumerate}
+					\textbf{نعطي :}
+					\begin{itemize}
+					\item
+					الضغط الجوي : 
+					{$\bm{P_{atm}=1013\ hPa}$}.
+					\end{itemize}}
+					\end{exercice}%=== source ===%</Enonce>
+					<Solution>%Solution 21
+
+
+					%=== source ===%</Solution>
+				</Exercice>
+			</Exercices>
 	</Cours>
 	<Cours id ="3">
 				<name>الحركة</name>
 				<file>Tc_p3.tex</file>
 				<Exercices>
-					<Exercice>
-						<name>تمرين 003</name>
-						<Enonce>aa</Enonce>
+						<Enonce>dr</Enonce>
 						<Solution></Solution>
 						<Image></Image>
-					</Exercice>
-					<Exercice>
-						<name>تمرين 003</name>
-						<Enonce>bb</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
-					<Exercice>
-						<name>تمرين 003</name>
-						<Enonce>cc</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
 				</Exercices>
 	</Cours>
 	<Cours id ="4">
 				<name>مبدأ القصور</name>
 				<file>Tc_p4.tex</file>
 				<Exercices>
-					<Exercice>
-						<name>تمرين 001</name>
-						<Enonce>aa</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
-					<Exercice>
-						<name>التمرين 002</name>
-						<Enonce>bb</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
-					<Exercice>
-						<name>التمرين 003</name>
-						<Enonce>cc</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
 				</Exercices>
 	</Cours>
-</Niveau>
+	<Cours id ="5">
+				<name>توازن جسم صلب خاضع لقوتين-تطبيقات</name>
+				<file>Tc_p5.tex</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="6">
+				<name>توازن جسم صلب خاضع لثلاث قوى</name>
+				<file>Tc_p6.tex</file>
+				<Exercices>
+				</Exercices>
+	</Cours>
+	<Cours id ="7">
+				<name>توازن جسم صلب قابل للدوران حول محور ثابت</name>
+				<file>Tc_p7.tex</file>
+				<Exercices>
+				</Exercices>
+	</Cours>
+	<Cours id ="8">
+				<name>التيار الكهربائي المستمر</name>
+				<file>Tc_p8.tex</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="9">
+				<name>التوتر الكهربائي</name>
+				<file>Tc_p9.tex</file>
+				<Exercices>
+				</Exercices>
+	</Cours>
+	<Cours id ="10">
+				<name>تجميع الموصلات الاومية</name>
+				<file>Tc_p10.tex</file>
+				<Exercices>
+				</Exercices>
+	</Cours>
+	<Cours id ="11">
+				<name>مميزات بعض تنائيات القطب الغير النشيطة</name>
+				<file>Tc_p11.tex</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="12">
+				<name>مميزات تنائيات القطب النشيطة</name>
+				<file>Tc_p12.tex</file>
+				<Exercices>
+				</Exercices>
+	</Cours>
+	<Cours id ="13">
+				<name>الترانزستور والسلسلة الالكترونية</name>
+				<file>Tc_p13.tex</file>
+				<Exercices>
+				</Exercices>
+	</Cours>
+	<Cours id ="14">
+				<name>المضخم العملياتي</name>
+				<file>Tc_p14.tex</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="15">
+				<name>الانواع الكميائية</name>
+				<file>Tc_p15.tex</file>
+				<Exercices>
+				</Exercices>
+	</Cours>
+	<Cours id ="16">
+				<name>إستخراج وفصل الانواع الكميائية والكشف عنها</name>
+				<file>Tc_p16.tex</file>
+				<Exercices>
+				</Exercices>
+	</Cours>
+	<Cours id ="17">
+				<name>تصنيع الانواع الكيميائية</name>
+				<file>Tc_p17.tex</file>
+				<Exercices>
+				</Exercices>
+	</Cours>
+	<Cours id ="18">
+				<name>نموذج الذرة</name>
+				<file>Tc_p18.tex</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="19">
+				<name>هندسة بعض الجزيئات</name>
+				<file>Tc_p19.tex</file>
+				<Exercices>
+				</Exercices>
+	</Cours>
+	<Cours id ="20">
+				<name>الترتيب الدوري للعناصر الكيميائية</name>
+				<file>Tc_p20.tex</file>
+				<Exercices>
+				</Exercices>
+	</Cours>
+	</Niveau>
 <Niveau class ="Bac1">
 	<N>الأولى باك علوم تجريبية</N>
 	<Cours id ="1">
-				<id>1</id>
-				<name>الدوران</name>
-				<Exercices>
-					<Exercice>
-						<Id>1</Id>
-						<Enonce>aa</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
-					<Exercice>
-						<Id>2</Id>
-						<Enonce>bb</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
-					<Exercice>
-						<Id>3</Id>
-						<Enonce>cc</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
-				</Exercices>
+				<name>حركة دوران جسم صلب حول محور ثابت</name>
+				<file>Bac_p1.tex</file>
+				<Exercices> </Exercices>
 	</Cours>
 	<Cours id ="2">
-				<id>1</id>
-				<name>الشغل</name>
+				<name>شغل وقدرة قوة</name>
+				<file>Bac_p2.tex</file>
 				<Exercices>
-					<Exercice>
-						<Id>1</Id>
-						<Enonce>aa</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
-					<Exercice>
-						<Id>2</Id>
-						<Enonce>bb</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
-					<Exercice>
-						<Id>3</Id>
-						<Enonce>cc</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
 				</Exercices>
 	</Cours>
 	<Cours id ="3">
-				<id>1</id>
-				<name>الطاقة</name>
+				<name>الشغل والطاقة الحركية</name>
+				<file>Bac_p3.tex</file>
 				<Exercices>
-					<Exercice>
-						<Id>1</Id>
-						<Enonce>dr</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
-					<Exercice>
-						<Id>2</Id>
-						<Enonce>gt</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
-					<Exercice>
-						<Id>3</Id>
-						<Enonce>cc</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
 				</Exercices>
 	</Cours>
 </Niveau>
 <Niveau class ="Bac2">
 	<N>الثانية باك علوم الحياة والأرض</N>
 	<Cours id ="1">
-				<id>1</id>
 				<name>الموجات الميكانيكية المتوالية</name>
-				<Exercices>
-					<Exercice>
-						<Id>1</Id>
-						<Enonce>aa</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
-					<Exercice>
-						<Id>2</Id>
-						<Enonce>bb</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
-					<Exercice>
-						<Id>3</Id>
-						<Enonce>cc</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
-				</Exercices>
+				<file>Bac2_p1.tex</file>
+				<Exercices> </Exercices>
 	</Cours>
 	<Cours id ="2">
-				<id>1</id>
-				<name>الموجات الميكانيكية المتوالية الدورية</name>
+				<name>الموجات الميكانيكية الدورية</name>
+				<file>Bac2_p2.tex</file>
 				<Exercices>
-					<Exercice>
-						<Id>1</Id>
-						<Enonce>aa</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
-					<Exercice>
-						<Id>2</Id>
-						<Enonce>bb</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
-					<Exercice>
-						<Id>3</Id>
-						<Enonce>cc</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
 				</Exercices>
 	</Cours>
 	<Cours id ="3">
-				<id>1</id>
-				<name>John Deo</name>
+				<name>الموجات الضوئية</name>
+				<file>Bac2_p3.tex</file>
 				<Exercices>
-					<Exercice>
-						<Id>1</Id>
-						<Enonce>aa</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
-					<Exercice>
-						<Id>2</Id>
-						<Enonce>bb</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
-					<Exercice>
-						<Id>3</Id>
-						<Enonce>cc</Enonce>
-						<Solution></Solution>
-						<Image></Image>
-					</Exercice>
+				</Exercices>
+	</Cours>
+	<Cours id ="4">
+				<name>التناقص الإشعاعي</name>
+				<file>Bac2_p4.tex</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="5">
+				<name>النوى-الكتلة والطاقة</name>
+				<file>Bac2_p5.tex</file>
+				<Exercices>
+				</Exercices>
+	</Cours>
+	<Cours id ="6">
+				<name>تنائي القطب RC</name>
+				<file>Bac2_p6.tex</file>
+				<Exercices>
+				</Exercices>
+	</Cours>
+	<Cours id ="7">
+				<name>تنائي القطب RL</name>
+				<file>Bac2_p7.tex</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="8">
+				<name>التذبذبات الحرة في دارة RLC متوالية</name>
+				<file>Bac2_p8.tex</file>
+				<Exercices>
+				</Exercices>
+	</Cours>
+	<Cours id ="9">
+				<name>التذبذبات الكهربائية القسرية</name>
+				<file>Bac2_p9.tex</file>
+				<Exercices>
+				</Exercices>
+	</Cours>
+	<Cours id ="10">
+				<name>التحولات السريعة والتحولات البطيئة</name>
+				<file>Bac2_p10.tex</file>
+				<Exercices>
+				</Exercices>
+	</Cours>
+	<Cours id ="11">
+				<name>التطور الزمني لتحول كيميائي-سرعة التفاعل</name>
+				<file>Bac2_p11.tex</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="12">
+				<name>التحولات الكيميائية التي تحدث في منحيين</name>
+				<file>Bac2_p12.tex</file>
+				<Exercices>
+				</Exercices>
+	</Cours>
+	<Cours id ="13">
+				<name>حالة توازن مجموعة كيميائية</name>
+				<file>Bac2_p13.tex</file>
+				<Exercices>
+				</Exercices>
+	</Cours>
+	<Cours id ="14">
+				<name>التحولات المقرونة بتفاعلات حمض قاعدة في محلول مائي</name>
+				<file>Bac2_p14.tex</file>
+				<Exercices>
 				</Exercices>
 	</Cours>
 </Niveau>

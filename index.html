@@ -246,10 +246,11 @@ enonce += txt;
 //Affichier le resultat
 var select_el = "التمارين المختارة مرتبة كالأتي : ";
 select_e2 = "";
+var tcbac12 = ["Tc","Bac1","Bac2"];
 for(var i = 0;i<EX_tab.length-1;i++){ select_el += (Number(EX_tab[i])+1) +" - ";
-select_e2 += "<p dir='rtl'><img alt='e'"+ (Number(EX_tab[i])+1) + " height='100%' src='images/Tc/p1/e"+ (Number(EX_tab[i])+1) +".png' width='100%' /></p>";}
+select_e2 += "<p dir='rtl'><img alt='e"+ (Number(C)+1) +"'"+ (Number(EX_tab[i])+1) + " height='100%' src='images/"+ tcbac12[N] +"/p" + (Number(C)+1) + "/e" + (Number(EX_tab[i])+1) +".png' width='100%' /></p>";}
 if(EX_tab.length>0){ select_el += (Number(EX_tab[EX_tab.length-1])+1);
-select_e2 += "<p dir='rtl'><img alt='e'"+ (Number(EX_tab[i])+1) + " height='100%' src='images/Tc/p1/e"+ (Number(EX_tab[i])+1) +".png' width='100%' /></p>";}
+select_e2 += "<p dir='rtl'><img alt='e"+ (Number(C)+1) +"'"+ (Number(EX_tab[i])+1) + " height='100%' src='images/"+ tcbac12[N] +"/p" + (Number(C)+1) + "/e" + (Number(EX_tab[i])+1) +".png' width='100%' /></p>";}
 //select_el += "<br/>" + enonce;
  document.getElementById("demo").innerHTML = select_el;
  document.getElementById("demo2").innerHTML = select_e2;
