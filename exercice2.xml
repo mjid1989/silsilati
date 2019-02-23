@@ -2804,7 +2804,7 @@
 					مثل هذه القوى.
 					\end{enumerate}
 					نعطي
-					$\bm{g=10\ N.kg^{-1}}$.}
+					$\bm{g=10\ N.kg^{-1}}$.
 					\end{minipage}
 					\begin{minipage}[c]{0.24\linewidth}
 \definecolor{cffffff}{RGB}{255,255,255}
@@ -2864,7 +2864,7 @@
 \end{tikzpicture}}
 \end{adjustbox}
 \end{flushleft}
-					\end{minipage}
+					\end{minipage}}
 					\end{exercice}%=== source ===%</Enonce>
 					<Solution>%Solution 1
 
