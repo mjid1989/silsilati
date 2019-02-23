@@ -128,6 +128,20 @@ for(var i=0;i<x.length;i++){
   option.value = i;
   list_style.add(option);
  } 
+ // remove cours
+var list_cour = document.getElementById("list_cours");
+var taill = list_cours.length;
+// remove
+for(var i=0;i<taill;i++){
+		list_cour.remove(0);
+}
+// remove exercices
+var list_exercice = document.getElementById("list_exercices");
+var taill = list_exercices.childNodes.length;
+for(var i=0;i<taill;i++){
+     list_exercice.removeChild(list_exercice.childNodes[0]);
+}
+document.getElementById("list_niveau").value =  document.getElementById("list_niveau")[0].value;
  //======================================================
   });
   
