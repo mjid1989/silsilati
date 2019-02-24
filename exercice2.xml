@@ -15936,6 +15936,721 @@ ${\bm{V=5\ m.s^{-1}}}$.
 				</Exercice>
 			</Exercices>
 	</Cours>
+	<Cours id ="5">
+				<name>الشغل والطاقة الداخلية</name>
+				<file>Bac1_p5</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="6">
+				<name>الطاقة الحرارية والإنتقال الحراري</name>
+				<file>Bac1_p6</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="7">
+				<name>المجال الكهرساكن</name>
+				<file>Bac1_p7</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="8">
+				<name>طاقة الوضع الكهرساكنة</name>
+				<file>Bac1_p8</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="9">
+				<name>انتقال الطاقة في دارة كهربائية</name>
+				<file>Bac1_p9</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="10">
+				<name>التصرف العام لدارة كهربائية</name>
+				<file>Bac1_p10</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="11">
+				<name>المجال المغنطيسي</name>
+				<file>Bac1_p11</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="12">
+				<name>المجال المغنطيسي المحدث من طرف التيار الكهربائي</name>
+				<file>Bac1_p12</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="13">
+				<name>القوى الكهرمغناطيسية-قانون لبلاص</name>
+				<file>Bac1_p13</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="14">
+				<name>قابلية رؤية شيء</name>
+				<file>Bac1_p14</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="15">
+				<name>الصور المحصل عليها بواسطة مرآة مستوية</name>
+				<file>Bac1_p15</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="16">
+				<name>الصور المحصل عليها بواسطة عدسة رقيقة مجمعة</name>
+				<file>Bac1_p16</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="17">
+				<name>بعض الأجهزة البصرية</name>
+				<file>Bac1_p17</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="18">
+				<name>الصور المحصل عليها بواسطة مرآة كروية مجمعة</name>
+				<file>Bac1_p18</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="19">
+				<name>أهمية القياس في الكيمياء</name>
+				<file>Bac1_c1</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="20">
+				<name>المقادير الفيزيائية المرتبطة بكميات المادة</name>
+				<file>Bac1_c2</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="21">
+				<name>التركيز والمحاليل الإلكتروليتية</name>
+				<file>Bac1_c3</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="22">
+				<name>تتبع تطور تحول كيميائي</name>
+				<file>Bac1_c4</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="23">
+				<name>قياس المواصلة</name>
+				<file>Bac1_c5</file>
+				<Exercices>
+				<Exercice>
+					<N>1</N>
+					<name>تمرين 1</name>
+					<Image>images/Tc/c5/e1.png</Image>
+					<Enonce>%Exercice 1
+					\textbf{\begin{exercice}{}/
+أنجز عملية التحويل الى الوحدة المطلوبة في كل من الحالات التالية :
+\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+\vspace{-0.3cm}
+\item الموصلية :
+\vspace{-0.2cm}
+\textfrench{
+\begin{itemize}
+\item $\bm{{\sigma = 65,4\ mS.m^{-1} =}}$ \dotfill $\bm{{\ S.m^{-1}}}$
+\item $\bm{{\sigma = 26,7.10^{-2}\ S.cm^{-1} = }}$ \dotfill $\bm{{\  S.m^{-1}}}$
+\item $\bm{{\sigma = 65,4.10^{-1}\ \mu S.cm^{-1} = }}$ \dotfill $\bm{{\  S.m^{-1}}}$
+\vspace{-1cm}
+\end{itemize}}
+\item الموصلية المولية الأيونية :
+\vspace{-0.2cm}
+\textfrench{
+\begin{itemize}
+\item $\bm{{\lambda = 78,5.10^{-2}\ S.m^{2}.mol^{-1} = }}$ \dotfill $\bm{{\  mS.m^{2}.mol^{-1}}}$
+\item $\bm{{\lambda = 5,7.10^{3}\ \mu S.m^{2}.mol^{-1} = }}$ \dotfill $\bm{{\  S.m^{2}.mol^{-1}}}$
+\item $\bm{{\lambda = 19,5\ mS.m^{2}.mol^{-1} = }}$ \dotfill $\bm{{\  S.m^{2}.mol^{-1}}}$
+\end{itemize}
+\vspace{-1cm}
+}
+\item التركيز المولي :
+\vspace{-0.2cm}
+\textfrench{
+\begin{itemize}
+\item $\bm{{C = 1,3.10^{-2}\ mol.L^{-1} = }}$ \dotfill $\bm{{\  mol.m^{-3}}}$
+\item $\bm{{C = 78,5\ mmol.m^{-3} = }}$ \dotfill $\bm{{\  mol.L^{-1}}}$
+\item $\bm{{C = 6,5.10^{-2}\ mmol.dm^{-3} = }}$ \dotfill $\bm{{\  mol.m^{-3}}}$
+\end{itemize}}
+\end{enumerate}
+					\end{exercice}}%===  ===%</Enonce>
+					<Solution>%Solution 1
+					\textbf{\begin{solution}{}/
+عملية التحويل الى الوحدة المطلوبة في الحالة :
+\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+\item الموصلية :
+\vspace{-0.3cm}
+\textfrench{
+\begin{itemize}
+\item $\bm{{\sigma = 65,4\ mS.m^{-1} =}}$ \dotfill $\bm{{\ S.m^{-1}}}$
+\begin{eqnarray*}
+\sigma &amp;=&amp; 65,4\ \textcolor{red}{mS}.m^{-1}\hfill\\
+&amp;=&amp; 65,4\ \textcolor{red}{10^{-3}S}.m^{-1} \\
+&amp;=&amp; 65,4.10^{-3}\ S.m^{-1}
+\end{eqnarray*}
+\item $\bm{{\sigma = 26,7.10^{-2}\ S.cm^{-1} = }}$ \dotfill $\bm{{\  S.m^{-1}}}$ 
+\begin{eqnarray*}
+\sigma &amp;=&amp; 26,7.10^{-2}\ S.\textcolor{red}{cm}^{-1} \\
+&amp;=&amp; 26,7.10^{-2} \ S.(\textcolor{red}{10^{-2}m})^{-1} \\
+&amp;=&amp; 26,7.10^{-2} \ S.\textcolor{red}{10^{2}.m^{-1}} \\
+&amp;=&amp; 26,7.10^{-2}.10^{2} \ S.m^{-1} \\
+&amp;=&amp; 26,7\ S.m^{-1}
+\end{eqnarray*}
+\item $\bm{{\sigma = 65,4.10^{-1}\ \mu S.cm^{-1} = }}$ \dotfill $\bm{{\  S.m^{-1}}}$
+\begin{eqnarray*}
+\sigma &amp;=&amp; 65,4.10^{-1}\ \textcolor{red}{\mu S}.\textcolor{blue}{cm}^{-1} \\
+&amp;=&amp; 65,4.10^{-1}\ \textcolor{red}{10^{-6}S}.(\textcolor{blue}{10^{-2}m})^{-1} \\
+&amp;=&amp; 65,4.10^{-1}\ \textcolor{red}{10^{-6}S}.\textcolor{blue}{10^{2}.m^{-1}} \\
+&amp;=&amp; 65,4.10^{-1}.10^{-6}.10^{2}\ S.m^{-1} \\
+&amp;=&amp; 65,4.10^{-5}\ S.m^{-1}
+\end{eqnarray*}
+\vspace{-0.2cm}
+\end{itemize}}
+\vspace{-0.3cm}
+\item الموصلية المولية الأيونية :
+\vspace{-0.2cm}
+\textfrench{
+\begin{itemize}
+\item $\bm{{\lambda = 78,5.10^{-2}\ S.m^{2}.mol^{-1} = }}$ \dotfill $\bm{{\  mS.m^{2}.mol^{-1}}}$ 
+\begin{eqnarray*}
+\lambda &amp;=&amp; 78,5.10^{-2}\ \textcolor{red}{S}.m^{2}.mol^{-1} \\
+&amp;=&amp; 78,5.10^{-2}\ \textcolor{red}{10^{3}mS}.m^{2}.mol^{-1} \\
+&amp;=&amp; 78,5.10^{-2}.10^{3}\ mS.m^{2}.mol^{-1} \\
+&amp;=&amp; 78,5.10^{1}\ mS.m^{2}.mol^{-1} \\
+&amp;=&amp; 785\ mS.m^{2}.mol^{-1}
+\end{eqnarray*}
+\item $\bm{{\lambda = 5,7.10^{3}\ \mu S.m^{2}.mol^{-1} = }}$ \dotfill $\bm{{\  S.m^{2}.mol^{-1}}}$ 
+\begin{eqnarray*}
+\lambda &amp;=&amp; 5,7.10^{3}\ \mu S.m^{2}.mol^{-1} \\
+&amp;=&amp; 5,7.10^{3}\ \textcolor{red}{\mu S}.m^{2}.mol^{-1} \\
+&amp;=&amp; 5,7.10^{3}\ \textcolor{red}{10^{-6} S}.m^{2}.mol^{-1} \\
+&amp;=&amp; 5,7.10^{3}.10^{-6}\ S.m^{2}.mol^{-1} \\
+&amp;=&amp; 5,7.10^{-3}\ S.m^{2}.mol^{-1}
+\end{eqnarray*}
+\item $\bm{{\lambda = 19,5\ mS.m^{2}.mol^{-1} = }}$ \dotfill $\bm{{\  S.m^{2}.mol^{-1}}}$ 
+\begin{eqnarray*}
+\lambda &amp;=&amp; 19,5\ \textcolor{red}{mS}.m^{2}.mol^{-1}\\
+&amp;=&amp; 19,5\ \textcolor{red}{10^{-3}S}.m^{2}.mol^{-1}\\
+&amp;=&amp; 19,5.10^{-3}\ S.m^{2}.mol^{-1}\\
+\end{eqnarray*}
+\vspace{-0.2cm}
+\end{itemize}}
+\vspace{-0.3cm}
+\item التركيز المولي :
+\vspace{-0.3cm}
+\textfrench{
+\begin{itemize}
+\item $\bm{{C = 1,3.10^{-2}\ mol.L^{-1} = }}$ \dotfill $\bm{{\  mol.m^{-3}}}$
+\begin{eqnarray*}
+C &amp;=&amp; 1,3.10^{-2}\ mol.\textcolor{red}{L}^{-1} \\
+&amp;=&amp; 1,3.10^{-2}\ mol.(\textcolor{red}{10^{-3}m^{3}})^{-1} \\
+&amp;=&amp; 1,3.10^{-2}\ mol.\textcolor{red}{10^{3}.m^{-3}} \\
+&amp;=&amp; 1,3.10^{-2}.10^{3}\ mol.m^{-3} \\
+&amp;=&amp; 1,3.10^{-2}.10^{3}\ mol.m^{-3} \\ 
+&amp;=&amp; 1,3.10^{1}\ mol.m^{-3} \\  
+&amp;=&amp; 13\ mol.m^{-3} \\  
+\end{eqnarray*}
+\item $\bm{{C = 78,5\ mmol.m^{-3} = }}$ \dotfill $\bm{{\  mol.L^{-1}}}$
+\begin{eqnarray*}
+C &amp;=&amp; 78,5\ \textcolor{red}{mmol}.\textcolor{blue}{m^{-3}} \\ 
+&amp;=&amp; 78,5\ \textcolor{red}{ 10^{-3}mol}.(\textcolor{blue}{m^{3}})^{-1} \\ 
+&amp;=&amp; 78,5\ \textcolor{red}{ 10^{-3}mol}.(\textcolor{blue}{10^{3}L})^{-1} \\ 
+&amp;=&amp; 78,5\ \textcolor{red}{ 10^{-3}mol}.\textcolor{blue}{10^{-3}L^{-1}} \\ 
+&amp;=&amp; 78,5.10^{-3}.10^{-3}\ mol.L^{-1} \\
+&amp;=&amp; 78,5.10^{-6}\ mol.L^{-1} \\ 
+\end{eqnarray*}
+\item $\bm{{C = 6,5.10^{-2}\ mmol.dm^{-3} = }}$ \dotfill $\bm{{\  mol.m^{-3}}}$
+\begin{eqnarray*}
+C &amp;=&amp; 6,5.10^{-2}\ \textcolor{red}{mmol}.\textcolor{blue}{dm}^{-3}\\
+&amp;=&amp; 6,5.10^{-2}\ \textcolor{red}{10^{-3} mol}.(\textcolor{blue}{10^{-1}m})^{-3}\\
+&amp;=&amp; 6,5.10^{-2}.\ \textcolor{red}{10^{-3} mol}.\textcolor{blue}{10^{3}m^{-3}}\\
+&amp;=&amp; 6,5.10^{-2}.10^{-3}.10^{3}\ mol.m^{-3}\\
+&amp;=&amp; 6,5.10^{-2}\ mol.m^{-3}\\
+\end{eqnarray*}
+\end{itemize}}
+\end{enumerate}			
+					\end{solution}}%===  ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>2</N>
+					<name>تمرين 2</name>
+					<Image>images/Tc/c5/e2.png</Image>
+					<Enonce>%Exercice 2
+					\textbf{\begin{exercice}{}/
+تتكون خلية مواصلة من إلكترودين مساحة كل منهما 
+$S = 2\ cm^{2}$،
+تفصل بينهما مسافة 
+$L = 1\ cm$.
+\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+\item أحسب بالوحدة العالمية النسبة 
+$\dfrac{S}{L}$.
+\item أعطى قياس مواصلة جزء من المحلول القيمة 
+$G = 795\ \mu S$.
+أحسب موصلية المحلول.
+\item نحتفظ بنفس المحلول ونغير المسافة بين الإلكترودين فتأخذ 
+$L$
+القيمة 
+$L = 2\ cm$.
+\begin{enumerate}[label=\protect\rectled{\color{white}\textbf{(\alph*)}}]
+ \item ما المقدار الذي تغير الواصلة 
+ $G$
+ أم الموصلية
+ $\sigma$؟
+ \item ما القيمة الجديدة للمقدار المتغير؟ 
+ \end{enumerate} 
+\end{enumerate}
+					\end{exercice}}%===  ===%</Enonce>
+					<Solution>%Solution 2
+					\begin{solution}{}/
+\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+\item لدينا :
+$$\dfrac{S}{L} = \dfrac{2\ cm^{2}}{1\ cm} = 2\ cm = 2.10^{-2}\ m$$
+\item لدينا :
+$$G = \sigma.\dfrac{S}{L}$$
+ومنه :
+\begin{eqnarray*}
+\sigma &amp;=&amp; \dfrac{G}{\dfrac{S}{L}} \\
+&amp;=&amp; \dfrac{795.10^{-6}}{2.10^{-2}} \\
+&amp;=&amp; 39,75.10^{-3}\ S.m^{-1}
+\end{eqnarray*}
+\item نحتفظ بنفس المحلول ونغير المسافة بين الإلكترودين فتأخذ 
+$L$
+القيمة 
+$L = 2\ cm$.
+\begin{enumerate}[label=\protect\rectled{\color{white}\textbf{(\alph*)}}]
+ \item المواصلة  
+ $G$
+ لا تميز المحلول فهي
+تتعلق بخلية قياس المواصلة (
+$S$
+المساحة المغمورة منها 
+و
+$L$
+المسافة بين الإلكترودين)،
+ بينما الموصلية
+ $\sigma$
+تميز المحلول ولا تتعلق بخلية قياس المواصلة.
+ \item القيمة الجديدة للمواصلة
+ $G$
+  :
+\begin{eqnarray*}
+G &amp;=&amp; \sigma.\dfrac{S}{L} \\
+&amp;=&amp; 39,75.10^{-3}.\dfrac{2.(10^{-2})^2}{2.10^{-2}} \\
+&amp;=&amp; 39,75.10^{-3}.\dfrac{2.10^{-4}}{2.10^{-2}} \\
+&amp;=&amp; 3.97.10^{-4} \ S
+ \end{eqnarray*} 
+ \end{enumerate} 
+\end{enumerate}
+					\end{solution}%===  ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>3</N>
+					<name>تمرين 3</name>
+					<Image>images/Tc/c5/e3.png</Image>
+					<Enonce>%Exercice 3
+					\textbf{\begin{exercice}{}/
+يحتوي محلول مائي على أيونات الصوديوم، الألومنيوم والكلورور تراكيرها هي :
+\textfrench{
+\begin{itemize}
+\begin{multicols}{3}
+\item 
+$[Na^{+}] = 2.10^{-3}\ mol.L^{-1}$
+\item
+$[NH_4^{+}] = 3.10^{-3}\ mol.L^{-1}$
+\item
+$[Cl^{-}] = 5.10^{-3}\ mol.L^{-1}$
+\end{multicols}
+\end{itemize}}
+أحسب موصلية هذا المحلول، عند 
+$25\ ^{\circ}C$.
+\\\textbf{نعطي عند  
+$25\ ^{\circ}C$ :
+}\\
+${\lambda _{Na^+} =5,0.10^{-3}\ S.m^{2}.mol^{-1}}$
+و
+${\lambda _{Cl^-} =7,6.10^{-3}\ S.m^{2}.mol^{-1}}$.
+و
+${\lambda _{NH_4^+} =7,4.10^{-3}\ S.m^{2}.mol^{-1}}$
+	\end{exercice}}%===  ===%</Enonce>
+					<Solution>%Solution 3
+					\begin{solution}{}/
+لنحسب الموصلية $\sigma$ :
+\\لدينا :
+$$\sigma = [Na^{+}].\lambda_{Na^{+}} + [NH_4^{+}].\lambda_{NH_4^{+}} + [Cl^-].\lambda_{Cl^-}$$
+ولدينا :
+\begin{eqnarray*}
+[Na^{+}] &amp;=&amp; 2.10^{-3}\ mol.\textcolor{red}{L}^{-1} \\
+&amp;=&amp; 2.10^{-3}\ mol.(\textcolor{red}{10^{-3}m^{3}})^{-1} \\
+&amp;=&amp; 2.10^{-3}\ mol.\textcolor{red}{10^{3}m^{-3}} \\
+&amp;=&amp; 2.10^{-3}.10^{3}\ mol.m^{-3} \\
+&amp;=&amp; 2\ mol.m^{-3} \\
+\end{eqnarray*}
+تذكر أن :
+\fbox{$1 \ mol.L^{-1} = \textcolor{red}{10^{3}}\ mol.m^{-3}$}
+\\\begin{eqnarray*}
+[NH_4^{+}] &amp;=&amp; 3.10^{-3}\ \textcolor{red}{mol.L^{-1}} \\
+&amp;=&amp; 3.10^{-3}.\textcolor{red}{10^{3}\ mol.m^{-3}}  \\
+&amp;=&amp; 3\ mol.m^{-3}
+\end{eqnarray*}
+\begin{eqnarray*}
+[Cl^{-}] &amp;=&amp; 5.10^{-3}\ \textcolor{red}{mol.L^{-1}} \\
+&amp;=&amp; 5.10^{-3}.\textcolor{red}{10^{3}\ mol.m^{-3}}  \\
+&amp;=&amp; 5\ mol.m^{-3}
+\end{eqnarray*}
+إذن :
+\begin{eqnarray*}
+\sigma &amp;=&amp; [Na^{+}].\lambda_{Na^{+}} + [NH_4^{+}].\lambda_{NH_4^{+}} + [Cl^-].\lambda_{Cl^-} \\
+&amp;=&amp; 2\times 5,0.10^{-3} + 3\times 7,4.10^{-3} + 5\times 7,6.10^{-3}\\
+&amp;=&amp; (2\times 5+3\times 7,6 +5\times 7,4).10^{-3} \\
+&amp;=&amp; 70,2.10^{-3}\ S.m^{-1}
+\end{eqnarray*}
+	\end{solution}%===  ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>4</N>
+					<name>تمرين 4</name>
+					<Image>images/Tc/c5/e4.png</Image>
+					<Enonce>%Exercice 4
+					\textbf{\begin{exercice}{}/
+نطبق على خلية قياس المواصلة، مغمورة كليا داخل محلول إلكتروليتي، توترا متناوبا جيبيا ذي تردد 
+$500\ Hz$
+وقيمته الفعالة 
+$U=1,20\ V$،
+فيمر تيار كهربائي شدته الفعالة 
+$I=2,67\ mA$.
+\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+\item
+ أحسب مواصلة جزء المحلول الموجود بين الإلكترودين.
+\item استنتج موصلية المحلول بالوحدة 
+$S.m^{-1}$.
+\item بين كيف تتغير فيمتا المواصلة والموصلية إذا كانت الخلية جزئيا في المحلول.  
+\end{enumerate}
+نعطي المسافة بين الإلكترودين 
+$L=1,50\ cm$، 
+ومساحة كل إلكترود 
+$120\ mm^2$.
+					\end{exercice}}%=== source ===%</Enonce>
+					<Solution>%Solution 4
+					\begin{solution}{}/
+\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+\item
+ لنحسب مواصلة جزء المحلول الموجود بين الإلكترودين.
+\begin{eqnarray*}
+G &amp;=&amp; \dfrac{I}{U} \\
+&amp;=&amp; \dfrac{2,67.10^{-3}}{1,20}\\
+&amp;=&amp; 2,22.10^{-3}\ S
+\end{eqnarray*}
+\item إذن موصلية المحلول بالوحدة 
+$S.m^{-1}$ هي :
+\begin{eqnarray*}
+\sigma &amp;=&amp; G.\dfrac{L}{S} \\
+&amp;=&amp; 2,22.10^{-3}.\dfrac{1,50.10^{-2}}{120.(10^{-3})^{2}}\\
+&amp;=&amp; 277,5.10^{-3}\ S.m^{-1}
+\end{eqnarray*}
+\item إذا كانت الخلية جزئيا في المحلول(أي نقصان قيمة 
+$S$)
+فإن قيمة المواصلة 
+$G$
+تنخفظ، بينما الموصلية
+$\sigma$
+تبقى ثابتة. 
+\end{enumerate}
+\end{solution}%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>5</N>
+					<name>تمرين 5</name>
+					<Image>images/Tc/c5/e5.png</Image>
+					<Enonce>%Exercice 5
+					\textbf{\begin{exercice}{}/
+نحصل على محلول مائي
+$(S)$
+لكلورور الصوديوم بإذابة كتلة
+${m=11,76\ mg}$
+من كلورور الصوديوم في حجم 
+${V=200\ cm^3}$
+من الماء.
+\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+\item أحسب
+$C$
+التركيز المولي للمحلول
+$(S)$.
+\item أحسب
+$\sigma$
+موصلية المحلول
+$(S)$.
+\item أحسب
+$G$
+مواصلة جزء المحلول
+$(S)$
+المغمور بين صفيحتي خلية المواصلة الذي مساحته الخارجية
+$S=5\ cm^{2}$
+و طوله
+$L=2\ cm$.
+\end{enumerate}
+\textbf{نعطي:}\\
+${\lambda _{Na^+} =5,0.10^{-3}\ S.m^{2}.mol^{-1}}$
+و
+${\lambda _{Cl^-} =7,6.10^{-3}\ S.m^{2}.mol^{-1}}$
+و
+${M(NaCl)=58,5\ g.mol^{-1}}$
+\end{exercice}}%=== source ===%</Enonce>
+					<Solution>%Solution 5
+					\begin{solution}{}/
+\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+\item لنحسب
+$C$
+التركيز المولي للمحلول
+$(S)$.
+$$C=\dfrac{n}{V}$$
+لنحسب كمية المادة $n$ :
+\begin{eqnarray*}
+n &amp;=&amp; \dfrac{m}{M(NaCl)} \\
+&amp;=&amp; \dfrac{11,76.10^{-3}}{58,5}\\
+&amp;=&amp; 2.10^{-4}\ mol
+\end{eqnarray*}
+إذن :
+\begin{eqnarray*}
+C &amp;=&amp; \dfrac{n}{V}\\
+&amp;=&amp; \dfrac{2.10^{-4}}{200.10^{-3}}\\
+&amp;=&amp; 10^{-3}\ \textcolor{red}{mol.L^{-1}} \\
+&amp;=&amp; 10^{-3}.\textcolor{red}{10^{3}.mol.m^{-3}} \\
+&amp;=&amp; 1\ mol.m^{-3}
+\end{eqnarray*}
+\item لنحسب
+$\sigma$
+موصلية المحلول
+$(S)$.
+\\لدينا :
+$$\sigma = [Na^{+}].\lambda_{Na^{+}} + [Cl^{-}].\lambda_{Cl^{-}}$$
+و
+$$[Na^{+}] = [Cl^{-}] = C = 1\ mol.m^{-3}$$
+إذن : 
+\begin{eqnarray*}
+\sigma &amp;=&amp; C.\lambda_{Na^{+}} + C.\lambda_{Cl^{-}}\\
+&amp;=&amp;  C.(\lambda_{Na^{+}} + \lambda_{Cl^{-}})\\
+&amp;=&amp;  1.(5.10^{-3} + 7,6.10^{-3})\\
+&amp;=&amp; 12,6.10^{-3}\ S.m^{-1}
+\end{eqnarray*}
+\item لنحسب
+$G$
+مواصلة جزء المحلول
+$(S)$ :
+\begin{eqnarray*}
+G &amp;=&amp; \sigma.\dfrac{S}{L}\\
+&amp;=&amp;  12,6.10^{-3}\times \dfrac{5\times (10^{-2})^2}{2.10^{-2}}\\
+&amp;=&amp; 3,15.10^{-4}\ S
+\end{eqnarray*}
+\end{enumerate}
+\end{solution}%=== source ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>6</N>
+					<name>تمرين 6</name>
+					<Image>images/Tc/c5/e6.png</Image>
+					<Enonce>%Exercice 6
+					\textbf{\begin{exercice}{}/
+نحضر 
+$V_1=100\ mL$
+من محلول مائي بإذابة 
+$m=68\ mg$
+من ميثانوات الصوديوم الصلب 
+$HCOONa(s)$
+في الماء المقطر.
+\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+\item أكتب معادلة الذوبان.
+\item أحسب التركيز المولي 
+$C$
+للمذاب المستعمل.
+\item إذا علمت أن ذوبان ميثانوات الصوديوم يكون كليا، اعط تراكيز الأيونات الموجودة في المحلول بالوحدة :
+$mol.m^{-3}$.
+\item إعط تعبير موصلية المحلول بدلالة تراكيز الأيونات الموجودة في المحلول، واحسب قيمتها.
+\item نضيف كمية من الماء المقطر الى المحلول الأول ثم نقوم بقياس مواصلة جزء من المحلول الجديد باستعمال خلية ذات الخصائص التالية 
+$(L=1\ cm ; S=3,21\ cm^{2})$،
+نقيس قيم 
+$U$
+و
+$I$
+ونجد :
+$U=1\ V$
+و
+$I=2,47\ mA$.
+\begin{enumerate}[label=\protect\rectled{\color{white}\textbf{(\alph*)}}]
+ \item أحسب المواصلة 
+ $G$
+ ثم استنتج موصلية المحلول الجديد.
+ \item أحسب تراكيز الأيونات الموجودة في المحلول الجديد.
+ \item استنتج حجم الماء المضاف الى المحلول الأول. 
+ \end{enumerate} 
+\end{enumerate}
+\textbf{نعطي عند  
+$25\ ^{\circ}C$ :
+}
+${\lambda _{Na^+} =5,0.10^{-3}\ S.m^{2}.mol^{-1}}$
+و
+${\lambda _{HCOO^-} =5,5.10^{-3}\ S.m^{2}.mol^{-1}}$\\
+والكتل المولية بـ
+$(g.mol^{-1})$ : 
+$M(H) = 1$ ; $M(C) = 12$ ; $M(O) = 16$ ; $M(Na) = 23$
+	\end{exercice}}%===  ===%</Enonce>
+					<Solution>%Solution 6
+					\begin{solution}{}/
+\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+\item معادلة الذوبان :
+$$HCOONa(s) \rightarrow Na^{+}_{(aq)} + Cl^{-}_{(aq)}$$
+\item التركيز المولي 
+$C$
+للمذاب المستعمل :
+\\لدينا : 
+$$C = \dfrac{n}{V}$$
+و :
+$$n = \dfrac{m}{M}$$
+و :
+\begin{eqnarray*}
+M(HCOONa) &amp;=&amp; M(H)+M(C)+2M(O)+M(Na) \\
+&amp;=&amp; 1 + 12 +2\times 16 + 23 \\
+&amp;=&amp; 68\ g.mol^{-1}
+\end{eqnarray*}
+وبالتالي :
+\begin{eqnarray*}
+n &amp;=&amp; \dfrac{m}{M} \\
+&amp;=&amp; \dfrac{\cancel{68}.10^{-3}}{\cancel{68}} \\
+&amp;=&amp; 10^{-3}\ mol
+\end{eqnarray*}
+إذن :
+\begin{eqnarray*}
+C &amp;=&amp; \dfrac{n}{V} \\
+&amp;=&amp; \dfrac{\cancel{10^{-3}}}{100.\cancel{10^{-3}}} \\
+&amp;=&amp; 10^{-2}\ mol.L^{-1} \\
+&amp;=&amp; 10^{-2}.10^{3}\ mol.m^{-3} \\
+&amp;=&amp; 10\ mol.m^{-3}
+\end{eqnarray*}
+
+\item تراكيز الأيونات الموجودة في المحلول بالوحدة :
+$mol.m^{-3}$
+$$[HCOO^{-}] = [Na^{+}] = C = 10\ mol.m^{-3}$$
+\item  تعبير موصلية المحلول بدلالة تراكيز الأيونات الموجودة في المحلول :
+\begin{eqnarray*}
+\sigma  &amp;=&amp; [Na^{+}].\lambda_{Na^{+}} + [HCOO^{-}].\lambda_{HCOO^{-}}\\
+&amp;=&amp; C.\lambda_{Na^{+}} + C.\lambda_{HCOO^{-}}\\
+&amp;=&amp; C\times(\lambda_{Na^{+}} + \lambda_{HCOO^{-}})
+\end{eqnarray*}
+ لنحسب قيمتها :
+\begin{eqnarray*}
+\sigma  &amp;=&amp;  C\times(\lambda_{Na^{+}} + \lambda_{HCOO^{-}}) \\
+&amp;=&amp; 10\times (5,0.10^{-3} + 5,5.10^{-3}) \\
+&amp;=&amp; 10,5.10^{-2}\ S.m^{-1}
+\end{eqnarray*}
+\item 
+\begin{enumerate}[label=\protect\rectled{\color{white}\textbf{(\alph*)}}]
+ \item المواصلة 
+ $G$ :
+ \begin{eqnarray*}
+ G &amp;=&amp; \dfrac{I}{U} \\
+ &amp;=&amp; \dfrac{2,47.10^{-3}}{1} \\
+ &amp;=&amp; 2,47.10^{-3} \ S
+ \end{eqnarray*}
+ موصلية المحلول الجديد :
+  \begin{eqnarray*}
+ \sigma &amp;=&amp; G\times \dfrac{L}{S} \\
+&amp;=&amp; 2,47.10^{-3}\times \dfrac{1.10^{-2}}{3.21.10^{-4}} \\
+ &amp;=&amp; 76,95.10^{-3} \ S.m^{-1}
+ \end{eqnarray*}
+ \item  تراكيز الأيونات الموجودة في المحلول الجديد :
+\\ لدينا :
+$$[HCOO^{-}] = [Na^{+}] = C$$
+و :
+$$\sigma = C\times(\lambda_{Na^{+}} + \lambda_{HCOO^{-}})$$
+ومنه :
+\begin{eqnarray*}
+C &amp;=&amp; \dfrac{\sigma}{\lambda_{Na^{+}} + \lambda_{HCOO^{-}}} \\
+&amp;=&amp; \dfrac{76,95.10^{-3}}{5,0.10^{-3} + 5,5.10^{-3}} \\
+&amp;=&amp; 7,33\ mol.m^{-3}\\
+&amp;=&amp; 7,33.10^{-3} mol.L^{-1}
+\end{eqnarray*}
+إذن :
+$$[HCOO^{-}] = [Na^{+}] = C = 7,33.10^{-3} mol.L^{-1}$$
+ \item  حجم الماء المضاف الى المحلول الأول :
+ \\حسب علاقة التكافؤ لدينا :
+\begin{eqnarray*}
+C_2.V_2 &amp;=&amp; C_1.V_1 \\
+V_2 &amp;=&amp; \dfrac{C_1.V_1}{C_2} \\
+&amp;=&amp; \dfrac{10\times 100}{7,33} \\
+&amp;=&amp; 136,42\ mL
+\end{eqnarray*} 
+ إذن فحجم الماء المضاف الى المحلول الأول هو :
+ $$V_e = V_2 - V_1 = 136,42- 100 = 36,42\ mL$$
+ \end{enumerate}
+\end{enumerate}
+	\end{solution}%===  ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>7</N>
+					<name>تمرين 7</name>
+					<Image>images/Tc/c5/e7.png</Image>
+					<Enonce>%Exercice 7
+					\textbf{\begin{exercice}{}/
+نقيس التوتر الفعال لتوتر كهربائي متناوب جيبي بين إلكتردين مغمورين في محلول ايوني وشدة
+التيار الفعالة I للتيار الذي يمر في جزء من المحلول المحصول بين الإلكترودين فنجد :
+$U=4,42\ V$
+و
+$I=2$.
+\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+\item أنجز تبيانة التركيب التجريبي المستعمل.
+\item فسر لماذا نستعمل توترا متناوبا لقياس مواصلة محلول أيوني؟
+\item أحسب مقاومة جزء المحلول المحصور بين الاكترودين.
+\item إستنتج مواصلة جزء المحلول المحصور بين الالكترودين؟
+\end{enumerate}
+\end{exercice}}%=== source ===%</Enonce>
+					<Solution>%Solution 7
+					
+					%===  ===%</Solution>
+				</Exercice>
+				<Exercice>
+					<N>8</N>
+					<name>تمرين 8</name>
+					<Image>images/Tc/c5/e8.png</Image>
+					<Enonce>%Exercice 8
+					\textbf{\begin{exercice}{}/
+	تم تحضير محلول مخفف لحمض النتريك
+$(H^+ + NO_3^-)$
+تركيزه
+$10^{-2}\ mol.L^{-1}$.
+\begin{enumerate}[label=\protect\circled{\color{white}\textbf{\arabic*}}]
+\item أحسب تراكيز مختلف الأيونات المتواجدة في المحلول بالوحدة:
+$mol.m^{-3}$.
+\item حدد قيمة موصلية المحلول بالوحدة
+$S.m^{-1}$
+ثم بالوحدة
+$mS.cm^{-1}$
+عند
+$25^{\circ}C$.
+\item أحسب المقاومية
+$\rho$
+للمحلول بالوحدة
+$\Omega cm$.
+\end{enumerate}
+نعطي عند درجة الحرارة
+$25^{\circ}C$ :
+${\lambda _{H^+} =34,98\ mS.m^{2}.mol^{-1}}$
+و
+${\lambda _{NO_3^-} =7,14\ mS.m^{2}.mol^{-1}}$.	
+	\end{exercice}}%=== source ===%</Enonce>
+					<Solution>%Solution 8
+					
+					%===  ===%</Solution>
+				</Exercice>
+		</Exercices>
+	</Cours>
+	<Cours id ="24">
+				<name>التفاعلات حمض-قاعدة</name>
+				<file>Bac1_c6</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="25">
+				<name>التفاعلات أكسدة-اختزال</name>
+				<file>Bac1_c7</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="26">
+				<name>المعايرات المباشرة</name>
+				<file>Bac1_c8</file>
+				<Exercices> </Exercices>
+	</Cours>
 	<Cours id ="27">
 				<name>توسع الكيمياء العضوية</name>
 				<file>Bac1_c9</file>
