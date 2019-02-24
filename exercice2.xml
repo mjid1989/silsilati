@@ -15936,6 +15936,26 @@ ${\bm{V=5\ m.s^{-1}}}$.
 				</Exercice>
 			</Exercices>
 	</Cours>
+	<Cours id ="27">
+				<name>توسع الكيمياء العضوية</name>
+				<file>Bac1_c9</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="28">
+				<name>الجزيئات العضوية و الهياكل الكربونية</name>
+				<file>Bac1_c10</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="29">
+				<name>تغيير الهيكل الكربوني</name>
+				<file>Bac1_c11</file>
+				<Exercices> </Exercices>
+	</Cours>
+	<Cours id ="30">
+				<name>المجموعات المميزة - التفاعلية</name>
+				<file>Bac1_c12</file>
+				<Exercices> </Exercices>
+	</Cours>
 	</Niveau>
 <Niveau class ="Bac2">
 	<N>الثانية باك علوم الحياة والأرض</N>
